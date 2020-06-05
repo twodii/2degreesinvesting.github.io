@@ -1,0 +1,96 @@
+---
+title: "r2dii.data 0.1.0 is now on CRAN"
+description: |
+  This release includes new and improved datasets.
+author:
+  - name: Mauro Lepore
+    url: https://github.com/maurolepore
+base_url: https://2degreesinvesting.github.io/ds-at-2dii/
+date: 2020-06-03
+output: 
+  distill::distill_article:
+    toc: true
+    toc_depth: 3
+    self_contained: true
+categories:
+  - r2dii
+  - software development
+  - release
+preview: preview.jpg
+twitter:
+  site: "@mauro_lepore"
+  creator: "@mauro_lepore"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE,
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+r2dii.data 0.1.0 is now on CRAN. r2dii.data provides public datasets to help you study how financial assets align to climate scenarios.
+
+This release signals that r2dii.data is now [maturing](https://www.tidyverse.org/lifecycle/#maturing). You can install it from CRAN with:
+
+```r
+install.packages("r2dii.data")
+```
+
+Then use it with:
+
+```{r}
+library(r2dii.data)
+```
+
+I also use the package dplyr; it is not necessary but convenient.
+
+```{r}
+library(dplyr)
+```
+
+All user-facing changes are listed in the [changelog](https://2degreesinvesting.github.io/r2dii.data/news/index.html); here I'll show the most important ones.
+
+We fixed a bug in the dataset `naics_classification`; it now contains the correct data.
+
+```{r}
+naics_classification
+```
+
+The dataset `region_isos` now includes the value "global" in the column `region`; it also gained the column `source`.
+
+```{r}
+region_isos %>% filter(region == "global")
+```
+
+The dataset `ald_demo` gained the column `ald_emission_factor_unit`.
+
+```{r}
+select(ald_demo, ald_emission_factor_unit)
+```
+
+Finally, we added three new datasets: `co2_intensity_scenario_demo`, `region_isos_demo`, and `scenario_demo_2020`.
+
+```{r}
+glimpse(region_isos_demo)
+
+glimpse(scenario_demo_2020)
+
+glimpse(co2_intensity_scenario_demo)
+```
+
+## Acknowledgements
+
+```{r echo=FALSE}
+thank <- function(x) {
+  x <- sort(x)
+  paste0("[", x, "]", sprintf("(https://github.com/%s)", x), collapse = ", ")
+}
+contributors <- c(
+  "jdhoffa",
+  "maurolepore"
+)
+```
+
+While this release includes commits from only a few of us (`r thank(contributors)`), it is thanks to ideas and feedback from many more colleagues at 2DII.

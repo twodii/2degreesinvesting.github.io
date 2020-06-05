@@ -1,0 +1,40 @@
+---
+title: "Shape and share your thoughts here"
+description: |
+  "If you think without writing, you only think you're thinking" -- Leslie Lamport.
+author:
+  - name: Mauro Lepore
+    url: https://github.com/maurolepore
+base_url: https://2degreesinvesting.github.io/ds-at-2dii/
+date: 2020-06-02
+output: 
+  distill::distill_article:
+    toc: true
+    toc_depth: 3
+    self_contained: true
+categories:
+  - blogging
+  - writing
+  - community
+preview: preview.jpg
+twitter:
+  site: "@mauro_lepore"
+  creator: "@mauro_lepore"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+A great deal of what you do at work is to think and share your thoughts. But "If you think without writing, you only think you're thinking" (Leslie Lamport). To shape and share your thoughts you need a blog. To lean how to create your own blog see [ds-incubator#47](https://github.com/2DegreesInvesting/ds-incubator/issues/47).
+
+This blog uses distill, a publication format for scientific and technical writing, native to the web. Learn more about using distill at <https://rstudio.github.io/distill>.
+
+Start now. If you want to publish a new post you wrote, [submit a pull request here](https://github.com/2DegreesInvesting/ds-at-2dii/pulls). For these other things, [open an issue here](https://github.com/2DegreesInvesting/ds-at-2dii/issues):
+
+* Discuss an idea for a new post.
+* Suggest a way to improve this blog.
+* Share a link of an article you would like to re-publish here.
+* Ask a question.
+
+I look forward to your hearing from you!

@@ -1,0 +1,107 @@
+---
+title: "r2dii.match 0.0.2 is now on CRAN"
+description: |
+  It's compatible with R back to 3.4, and dplyr 0.8.5; but update ASAP!
+author:
+  - name: Mauro Lepore
+    url: https://github.com/maurolepore
+base_url: https://2degreesinvesting.github.io/ds-at-2dii/
+date: 2020-06-05
+output: 
+  distill::distill_article:
+    toc: true
+    toc_depth: 3
+    self_contained: true
+categories:
+  - r2dii
+  - software development
+  - release
+preview: preview.jpg
+twitter:
+  site: "@mauro_lepore"
+  creator: "@mauro_lepore"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE,
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r Post-title}
+```
+
+r2dii.match 0.0.2 is now on CRAN. r2dii.match provides tools to match financial portfolios with climate data. This release is compatible with R back to 3.4, and with dplyr 0.8.5. But you should update as soon as possible.
+
+```{r Installation-instructions}
+```
+
+You can install r2dii.match from CRAN with:
+
+```r
+install.packages("r2dii.match")
+```
+
+```{r Usage-instructions}
+```
+
+Then use it with:
+
+```{r}
+library(r2dii.match)
+```
+
+```{r NEWS-details}
+```
+
+[All changes in this version are internal](https://github.com/2DegreesInvesting/r2dii.match/releases/tag/v0.0.2). Internal changes do not affect users in the short term; but in the long term, they might. Here I detail the R environment you need to keep things working as you expect.
+
+## Do our packages work on your computer?
+
+[We ensure the R-pacakges we build work with these computer environments](https://github.com/2DegreesInvesting/r2dii.match/blob/master/cran-comments.md):
+
+* Operative systems: Work on Windows, Mac, and Linux.
+
+* Versions of R:
+  * "release" (latest-release, now R-4.0); 
+  * "devel" (in-development next-release); 
+  * "oldrel" (last-release, now R-3.6); 
+  * and two older minor releases (now R-3.5 and R-3.4).
+
+* R packages: Latest version on CRAN.
+
+## When will our packages no longer support older versions of R or R packages?
+
+If your R environment is different from what's listed above, our packages might fail. We enforce that your R version is earlier than four minor-releases (e.g. R-3.3 is now too old). But we rarely enforce specific versions of R packages. Even if your outdated packages might be incompatible, it is up to you to update them or not.
+
+## [Should I update all my R packages frequently? Yes/No? Why?](https://community.rstudio.com/t/should-i-update-all-my-r-packages-frequently-yes-no-why/5856)
+
+> You will always eventually have a reason that you must update. So you can either do that very infrequently, suffer with old versions in the middle, and experience great pain at update. Or admit that maintaining your system is a normal ongoing activity, and do it more often.
+
+> There are definitely situations where people have good reason to not update or to do so infrequently or at specific milestones. But I personally encounter many more who suffer from the opposite: updating too infrequently, without any specific reason or because they fear disruption (which makes it worse in the end).
+
+-- Jenny Bryan
+
+You should update your R packages as often as it is possible and convenient -- maybe weekly. This helps you keep up with the rapid change of popular packages. For example, we now support dplyr 0.8.5 but you should update to dplyr 1.0.0 ASAP. [Some features of dplyr 0.8.5 have been superseded in dplyr 1.0.0](https://dplyr.tidyverse.org/news/index.html#superseded). To stay within best practices, we may enforce dplyr >= 1.0.0 any time.
+
+```{r Acknowledgements, echo=FALSE}
+# bash
+# git shortlog --summary tag-oldrel..tag-release
+# For example: Who contributed to r2dii.match 0.0.2 (since 0.0.1)?
+# git shortlog --summary 0.0.1..0.0.2
+
+thank <- function(x) {
+  x <- sort(x)
+  paste0("[", x, "]", sprintf("(https://github.com/%s)", x), collapse = ", ")
+}
+contributors <- c(
+  "jdhoffa",
+  "maurolepore"
+)
+```
+
+## Acknowledgements
+
+While this release includes commits from only a few of us (`r thank(contributors)`), it is thanks to ideas and feedback from many more colleagues at 2DII.
