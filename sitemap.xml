@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" version="1.0">
   <url>
-    <loc>https://2degreesinvesting.github.io/ds-at-2dii/</loc>
+    <loc>https://2degreesinvesting.github.io/about.html</loc>
     <lastmod>2020-06-05T16:01:27-05:00</lastmod>
   </url>
   <url>
-    <loc>https://2degreesinvesting.github.io/ds-at-2dii/posts/2020-06-05-r2dii-match-0-0-2/</loc>
+    <loc>https://2degreesinvesting.github.io/</loc>
     <lastmod>2020-06-05T16:01:27-05:00</lastmod>
   </url>
   <url>
-    <loc>https://2degreesinvesting.github.io/ds-at-2dii/posts/2020-06-03-r2dii-data-0-1-0/</loc>
+    <loc>https://2degreesinvesting.github.io/posts/2020-06-05-r2dii-match-0-0-2/</loc>
     <lastmod>2020-06-05T16:01:27-05:00</lastmod>
   </url>
   <url>
-    <loc>https://2degreesinvesting.github.io/ds-at-2dii/posts/2020-06-02-shape-and-share-your-thoughts-here/</loc>
+    <loc>https://2degreesinvesting.github.io/posts/2020-06-03-r2dii-data-0-1-0/</loc>
+    <lastmod>2020-06-05T16:01:27-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://2degreesinvesting.github.io/posts/2020-06-02-shape-and-share-your-thoughts-here/</loc>
     <lastmod>2020-06-05T16:01:27-05:00</lastmod>
   </url>
 </urlset>
