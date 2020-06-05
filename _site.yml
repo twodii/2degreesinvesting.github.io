@@ -1,0 +1,27 @@
+name: "Data science at 2DII"
+title: "Data science at 2DII"
+# description: '|
+#  Shaping and sharing our thoughts'
+base_url: https://2degreesinvesting.github.io/ds-at-2dii/
+output_dir: "docs"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+    - icon: fa fa-twitter
+      href: https://twitter.com/2degreesinvest
+    - icon: fa fa-github
+      href: https://github.com/2degreesinvesting/ds-at-2dii
+    - icon: fa fa-rss
+      href: sitemap.xml
+collections:
+  posts:
+    share: [twitter]
+twitter:
+  site: "@mauro_lepore"
+  creator: "@mauro_lepore"
+output: 
+  distill::distill_article:
+    theme: flatly
