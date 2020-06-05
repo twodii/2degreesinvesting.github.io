@@ -30,7 +30,7 @@ A great deal of what you do at work is to think and share your thoughts. But "If
 
 This blog uses distill, a publication format for scientific and technical writing, native to the web. Learn more about using distill at <https://rstudio.github.io/distill>.
 
-Start now. If you want to publish a new post you wrote, [submit a pull request here](https://github.com/2DegreesInvesting/ds-at-2dii/pulls). For these other things, [open an issue here](https://github.com/2DegreesInvesting/ds-at-2dii/issues):
+Start now. If you want to publish a new post you wrote, [submit a pull request here](https://github.com/2DegreesInvesting/2DegreesInvesting.github.io/pulls). For these other things, [open an issue here](https://github.com/2DegreesInvesting/2DegreesInvesting.github.io/issues):
 
 * Discuss an idea for a new post.
 * Suggest a way to improve this blog.

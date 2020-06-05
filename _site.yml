@@ -13,7 +13,7 @@ navbar:
     - icon: fa fa-twitter
       href: https://twitter.com/2degreesinvest
     - icon: fa fa-github
-      href: https://github.com/2degreesinvesting/ds-at-2dii
+      href: https://github.com/2degreesinvesting
     - icon: fa fa-rss
       href: sitemap.xml
 collections:
