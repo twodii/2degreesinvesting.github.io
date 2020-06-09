@@ -1,0 +1,98 @@
+---
+title: "Publishing sites on GitHub"
+description: |
+  Sites for your repos, and for your user or organization accounts
+author:
+  - name: Mauro Lepore
+    url: https://github.com/maurolepore
+date: 06-09-2020
+output: 
+  distill::distill_article:
+    toc: true
+    toc_depth: 3
+    self_contained: true
+categories:
+  - blogging
+  - writing
+  - community
+preview: preview.jpg
+twitter:
+  site: "@mauro_lepore"
+  creator: "@mauro_lepore"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE,
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+[GitHub Pages](https://pages.github.com/) allows you to publish websites for your GitHub repositories, and for your user or organization accounts. 
+
+This post has two parts. In the first part I explain how to build [a simple website](http://mauro-lepore.github.io/resume), using only a single file and GitHub. This part costs you 20% of your time and is all you need 80% of the time. It repeats the [official documentation](https://pages.github.com/) but I cover it here to warm up for the second part. In the second part I explain how to build an entire [blog](https://github.com/mauro-lepore/mauro-lepore.github.io), using [Git](https://git-scm.com/), [rstudio.cloud](https://rstudio.cloud/project/1291342), and the [R package distill](https://rstudio.github.io/distill/). Likely you will need this section less often but it can save you the time it took me to figure out some of the details I share. I use rstudio.cloud not because I expect you to use it commonly but because it is a good way to ensure you can reproduce what I do. You can also watch me do all of this on [this video](https://youtu.be/F92p3elUUSE).
+
+## Create a site for a GitHub repo
+
+A useful website can also be simple. For example, I can build an online resume at <https://mauro-lepore.github.io/resume/> from a single file index.md in the GitHub repository <https://github.com/mauro-lepore/resume>. Did you notice the structure of the repo and site?:
+
+* Repo: username/repo
+* Site:  username.github.io/repo
+
+Your turn! All you need is to [sign up for a free GitHub account](https://github.com/), and to then create a [new GitHub repository](https://github.com/new). Once at your repo, go to Settings  > GitHub Pages and choose a theme. Your website will be published at a link of the form: `https://username.github.io/repo/`. You can now [edit the file index.md](https://help.github.com/en/github/managing-files-in-a-repository/editing-files-in-your-repository) to include whatever you want.
+
+## Create a site for a user or organization
+
+Your websites can have more files or broader in scope. For example, I can build a blog to reflect my work across all projects on GitHub at <http://mauro-lepore.github.io/> from a collection of files at the GitHub repository <https://github.com/mauro-lepore/mauro-lepore.github.io>. Do you see the structure of the repo and site?:
+
+* Repo: username/username.github.io/
+* Site:  username.github.io/
+
+Let's do this step by step.
+
+### Connect GitHub and rstudio.cloud
+
+* On GitHub, [Create a new repo](https://github.com/new) of the form username.github.io
+
+* From your browser, create a permanent copy of [this rstudio.cloud project](https://rstudio.cloud/project/1291342). You may need to sign up for a free rstudio.cloud account.
+
+* From the _Terminal_ tab on rstudio.cloud, tell Git who you are. Use the email associated to [your GitHub profile](https://github.com/settings/profile). Run something like this:
+
+```bash
+  git config --global user.name "Your Name"
+  git config --global user.name "youremail@somewhere.com"
+```
+
+* Still from the _Terminal_ tab on rstudio.cloud, clone the GitHub repo with something like this:
+
+```bash
+  git clone https://github.com/username/username.github.io.git 
+```
+
+### Create, setup, and build a blog
+
+* From the _Console_ tab in rstudio.cloud, create a blog with something like this:
+
+```r
+  distill::create_blog("username.github.io")
+```
+
+* From the _Files_ tab on rstudio.cloud, click on  username.github.io.Rproj to restart the project as a blog. This will add the option _Build Website_ to the _Build_ tab.
+
+* Setup the blog to build on the root. From the _Files_ tab on rstudio.cloud, click on the file _site.yml to open it; then replace `output_dir: "_site"` with `output_dir: "."`.
+
+* Tell GitHub to not use the jekyll (it's not crucial to know what this means). Add a new empty text file .nojekyll. You may click on _File > New File ...> Text File_ from rstudio.cloud menu or run `touch .nojekyll` from the _Terminal_. The file will be hidden; to see it click on _More > Show hidden files_ from the _Files_ tab on rstudio.cloud.
+
+* Build the site. From the _Build_ tab on rstudio.cloud, click "Build Website".
+
+### Publish
+
+* Commit and push with RStudio’s interface or:
+```
+  git add --all
+  git commit -m “Initial commit”
+```
+* Visit the blog at https://username.github.io
+
+
