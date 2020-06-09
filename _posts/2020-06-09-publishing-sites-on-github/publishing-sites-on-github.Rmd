@@ -80,7 +80,7 @@ Let's do this step by step.
 
 * From the _Files_ tab on rstudio.cloud, click on  username.github.io.Rproj to restart the project as a blog. This will add the option _Build Website_ to the _Build_ tab.
 
-* Setup the blog to build on the root. From the _Files_ tab on rstudio.cloud, click on the file _site.yml to open it; then replace `output_dir: "_site"` with `output_dir: "."`.
+* Setup the blog to build on the root. From the _Files_ tTab on rstudio.cloud, click on the file _site.yml to open it; then replace `output_dir: "_site"` with `output_dir: "."`.
 
 * Tell GitHub to not use the jekyll (it's not crucial to know what this means). Add a new empty text file .nojekyll. You may click on _File > New File ...> Text File_ from rstudio.cloud menu or run `touch .nojekyll` from the _Terminal_. The file will be hidden; to see it click on _More > Show hidden files_ from the _Files_ tab on rstudio.cloud.
 
