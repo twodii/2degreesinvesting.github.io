@@ -16,6 +16,7 @@ navbar:
       href: sitemap.xml
 collections:
   posts:
+    custom: _custom.html
     disqus: data-science-at-2dii
     share: [twitter]
 twitter:
