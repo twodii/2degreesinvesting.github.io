@@ -1,5 +1,24 @@
 [
   {
+    "path": "posts/2020-06-10-what-technical-skills-matter/",
+    "title": "What technical skills matter?",
+    "description": "Find or become a T-shaped developer with the 20% you need 80% of the time",
+    "author": [
+      {
+        "name": "Mauro Lepore",
+        "url": "https://github.com/maurolepore"
+      }
+    ],
+    "date": "2020-06-10",
+    "categories": [
+      "other",
+      "community"
+    ],
+    "preview": "posts/2020-06-10-what-technical-skills-matter/preview.jpg",
+    "last_modified": "2020-06-10T21:34:01-05:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2020-06-05-r2dii-match-0-0-2/",
     "title": "r2dii.match 0.0.2 is now on CRAN",
     "description": "It's compatible with R back to 3.4, and dplyr 0.8.5; but update ASAP!",

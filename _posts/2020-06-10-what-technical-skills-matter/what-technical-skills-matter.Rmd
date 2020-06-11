@@ -1,7 +1,7 @@
 ---
 title: "What technical skills matter?"
 description: |
-  T-shaped developers with the 20% you need 80% of the time
+  Find or become a T-shaped developer with the 20% you need 80% of the time
 author:
   - name: Mauro Lepore
     url: https://github.com/maurolepore
@@ -12,8 +12,7 @@ output:
     toc_depth: 3
     self_contained: true
 categories:
-  - blogging
-  - writing
+  - other
   - community
 preview: preview.jpg
 twitter:
@@ -25,14 +24,13 @@ You may be hiring a software developer; Or you may be a software developer for h
 
 Although the specific answer for you and me is different, the general answer for both of us is likely similar. Here I explore two ideas that can guide almost everyone:
 
-1. __Find someone who's already done it^[This idea comes from the [Pragmatic Programmer](https://pragprog.com/titles/tpp20/); there it's used to answer “Where do estimates come from?”].__ Traditionally, organizations favoured [I-shaped developers](https://medium.com/quick-code/what-it-is-a-t-shaped-developer-and-why-you-should-be-one-e87293e4bb84): folks with deep and specific experience. But now organizations prefer “T-shaped” developers. For example, RStudio looks for software developers with “[broad knowledge of the entire discipline with deeper specializations in a few areas](https://rstudio.com/about/job-posting/?gh_jid=4045857003)”.
+1. __“T-shaped” developers__. Organizations tend to prefer [“T-shaped” developers](https://medium.com/quick-code/what-it-is-a-t-shaped-developer-and-why-you-should-be-one-e87293e4bb84) who have a "[broad knowledge of the entire discipline with deeper specializations in a few areas](https://rstudio.com/about/job-posting/?gh_jid=4045857003)”.
 
-2. __Consider the [80/20 rule](https://en.wikipedia.org/wiki/Pareto_principle).__ [“Roughly 80% of the effects come from 20% of the causes”](https://en.wikipedia.org/wiki/Pareto_principle). Ask yourself:
-What are the few skills (20%) people need most of the time (80%)? You may find that 80% of your projects use common tools. For example, most of the projects around me use the [tidyverse](http://tidyverse.org/) to wrangle, analyze, and plot data; [Shiny](https://shiny.rstudio.com/) to make plots interactive; [Git](https://git-scm.com/) and [GitHub](https://github.com/) for distributed version control; and [GitHub Actions](https://github.com/features/actions) to automate workflows.
+2. __The [80/20 rule](https://en.wikipedia.org/wiki/Pareto_principle).__ [“Roughly 80% of the effects come from 20% of the causes”](https://en.wikipedia.org/wiki/Pareto_principle). Ask yourself:
+What are the few skills (20%) people need most of the time (80%)? For example, most projects around me use a few common tools: The [tidyverse](http://tidyverse.org/) to wrangle, analyze, and plot data; [Shiny](https://shiny.rstudio.com/) to make plots interactive; [Git](https://git-scm.com/) and [GitHub](https://github.com/) for distributed version control; and [GitHub Actions](https://github.com/features/actions) to automate workflows.
 
-I hope each idea -- independently -- brings you closer to the specific answer you need. But like to combine them to squeeze a bit more insight. 
+The takeaways are these:
 
 * It is a must to have the few technical skills you need most of the time -- this is the "20%", and the smaller horizontal-segment of the "T"; it is the broad knowledge all software developers should have.
-* It is nice to have deep experience in a few specific areas. This is the "80%" that that makes each person unique, and the longer vertical-segment of the "T". 
 
-Only a few (parts of your) projects may need deep skills. In a team, it seems best for those skills to overlap a little and complement a lot. The little overlap helps people understand what someone else is doing; it also increases the TruckNumber of each project^["The TruckNumber is the size of the smallest set of people in a project such that, if one of them got hit by a truck, the project would be in trouble." -- https://wiki.c2.com/?TruckNumber]. And the complement allows the team as a hole to handle a wide range of exceptional projects before outsourcing becomes the best option.
+* It is nice to have deep experience in a few specific areas. This is the "80%" that makes each person unique, and the longer vertical-segment of the "T". Only a few (parts of your) projects may need deep skills. In a team, it seems best for those skills to overlap a little and complement a lot. The little overlap helps people understand what someone else is doing; it also increases the TruckNumber of each project^["The TruckNumber is the size of the smallest set of people in a project such that, if one of them got hit by a truck, the project would be in trouble." -- https://wiki.c2.com/?TruckNumber]. And the complement allows the team as a hole to handle a wide range of exceptional (parts of your) projects before the best option is outsourcing.
