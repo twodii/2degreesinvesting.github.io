@@ -22,15 +22,17 @@ twitter:
 
 You may be hiring a software developer; Or you may be a software developer for hire. In any case, you ask: What technical skills matter? 
 
-Although the specific answer for you and me is different, the general answer for both of us is likely similar. Here I explore two ideas that can guide almost everyone:
+Although the specific answer for you and me is different, the general answer for both of us is likely similar. These two ideas should guide almost everyone:
 
 1. __“T-shaped” developers__. Organizations tend to prefer [“T-shaped” developers](https://medium.com/quick-code/what-it-is-a-t-shaped-developer-and-why-you-should-be-one-e87293e4bb84) who have a "[broad knowledge of the entire discipline with deeper specializations in a few areas](https://rstudio.com/about/job-posting/?gh_jid=4045857003)”.
 
-2. __The [80/20 rule](https://en.wikipedia.org/wiki/Pareto_principle).__ [“Roughly 80% of the effects come from 20% of the causes”](https://en.wikipedia.org/wiki/Pareto_principle). Ask yourself:
-What are the few skills (20%) people need most of the time (80%)? For example, most projects around me use a few common tools: The [tidyverse](http://tidyverse.org/) to wrangle, analyze, and plot data; [Shiny](https://shiny.rstudio.com/) to make plots interactive; [Git](https://git-scm.com/) and [GitHub](https://github.com/) for distributed version control; and [GitHub Actions](https://github.com/features/actions) to automate workflows.
+2. __The [80/20 rule](https://en.wikipedia.org/wiki/Pareto_principle).__ [“Roughly 80% of the effects come from 20% of the causes”](https://en.wikipedia.org/wiki/Pareto_principle). 
 
-The takeaways are these:
+What are the few vital skills people need most of the time? This is the "20%", and the smaller horizontal-segment of the "T"; and it's the broad knowledge all software developers should have. For example, most projects around me use a few common tools: The [tidyverse](http://tidyverse.org/) to wrangle, analyze, and plot data; [Shiny](https://shiny.rstudio.com/) to make plots interactive; [Git](https://git-scm.com/) and [GitHub](https://github.com/) for distributed version control; and [GitHub Actions](https://github.com/features/actions) to automate workflows. 
 
-* It is a must to have the few technical skills you need most of the time -- this is the "20%", and the smaller horizontal-segment of the "T"; it is the broad knowledge all software developers should have.
+Only a few projects -- or parts of your projects -- needs deep skills. This is the "80%" that makes each person unique, and the longer vertical-segment of the "T". In a team, it seems best for these skills to overlap a little and complement a lot. The little overlap helps people understand what someone else is doing; it also increases the TruckNumber of each project^["The TruckNumber is the size of the smallest set of people in a project such that, if one of them got hit by a truck, the project would be in trouble." -- https://wiki.c2.com/?TruckNumber]. And the complement allows the team to handle a wide range of exceptional (parts of your) projects before the best option is outsourcing. 
 
-* It is nice to have deep experience in a few specific areas. This is the "80%" that makes each person unique, and the longer vertical-segment of the "T". Only a few (parts of your) projects may need deep skills. In a team, it seems best for those skills to overlap a little and complement a lot. The little overlap helps people understand what someone else is doing; it also increases the TruckNumber of each project^["The TruckNumber is the size of the smallest set of people in a project such that, if one of them got hit by a truck, the project would be in trouble." -- https://wiki.c2.com/?TruckNumber]. And the complement allows the team as a hole to handle a wide range of exceptional (parts of your) projects before the best option is outsourcing.
+Let's now combine these ideas in two takeaways for just about any team:
+
+* It is a must for everyone to have the few vital skills they need most of the time.
+* It is nice to have people with deep experience in areas that overlap a little and complement a lot.
