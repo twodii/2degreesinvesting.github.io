@@ -16,6 +16,7 @@ navbar:
       href: sitemap.xml
 collections:
   posts:
+    disqus: data-science-at-2dii
     share: [twitter]
 twitter:
   site: "@mauro_lepore"
