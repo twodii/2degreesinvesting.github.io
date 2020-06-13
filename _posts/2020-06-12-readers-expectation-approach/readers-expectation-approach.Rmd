@@ -1,0 +1,50 @@
+---
+title: "Title"
+description: |
+  "Description"
+author:
+  - name: Mauro Lepore
+    url: https://github.com/maurolepore
+date: "2020-06-12"
+output: 
+  distill::distill_article:
+  toc: true
+  toc_depth: 3
+  self_contained: true
+categories:
+  - other
+  - community
+preview: preview.jpg
+twitter:
+  site: "@mauro_lepore"
+  creator: "@mauro_lepore"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE,
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+While most of the joining and calculations occur under the hood, there are also 
+some utility functions that may be of interest to some analysts.
+
+I generally prefer a more personal style. I write with someone in mind, such as Sasha -- an analyst at Bank of America. Then "some analysts" becomes "you".
+
+Here the actor is implicitly "the package", or "the code", "we (the developers)" or similar. I would do it explicit.
+
+Also, sentences are generally clearer and active when you map actions to verbs. The first verb here is "occur" and the action is burried in so called nominalizations: Joining and calculations. 
+
+My revision:
+
+While the package joins and calculates [what?] under the hood, it {the package} also includes utility functions you may use:
+
+Maybe this is not exactly what you meant but shows how I aim to review. What most strongly influenced my writing is the "[Readers expectations approach](https://georgegopen.com/reader-expectation-approach)"
+
+The [paper](https://georgegopen.com/wp-content/uploads/2019/12/The-Science-of-Scientific-Writing-1.pdf) that presented the approach includes this summary that I like a lot:
+
+![image](https://user-images.githubusercontent.com/5856545/84555502-f4ed4c00-ace2-11ea-9f34-8674897bd1c9.png)
+
+If we both write using the same systematic approach, our documentation will be more consistent. If you follow some other approach let me know and we can discuss.
