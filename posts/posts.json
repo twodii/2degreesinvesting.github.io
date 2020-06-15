@@ -1,5 +1,24 @@
 [
   {
+    "path": "posts/2020-06-11-r2dii-analysis-release-candidate/",
+    "title": "r2dii.analysis: Release candidate",
+    "description": "Help us get to the first release",
+    "author": [
+      {
+        "name": "Mauro Lepore",
+        "url": "https://github.com/maurolepore"
+      }
+    ],
+    "date": "2020-06-15",
+    "categories": [
+      "other",
+      "community"
+    ],
+    "preview": "posts/2020-06-11-r2dii-analysis-release-candidate/preview.jpg",
+    "last_modified": "2020-06-15T10:17:20-05:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2020-06-10-what-technical-skills-matter/",
     "title": "What technical skills matter?",
     "description": "Find or become a T-shaped developer with the 20% you need 80% of the time",
