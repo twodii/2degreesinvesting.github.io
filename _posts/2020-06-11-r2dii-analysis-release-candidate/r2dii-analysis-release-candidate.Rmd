@@ -1,0 +1,54 @@
+---
+title: "r2dii.analysis: Release candidate"
+description: |
+  Help us get to the first release
+author:
+  - name: Mauro Lepore
+    url: https://github.com/maurolepore
+date: "2020-06-15"
+output: 
+  distill::distill_article:
+  toc: true
+  toc_depth: 3
+  self_contained: true
+categories:
+  - other
+  - community
+preview: preview.jpg
+twitter:
+  site: "@mauro_lepore"
+  creator: "@mauro_lepore"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE,
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+r2dii.analysis approaches its first release but first we'd love you to try it out and give us some feedback. Please report bugs, and incorrect or unclear documentation; you may also suggest changes to the interfaces, such as a better name for a function,  or argument. 
+
+Install the development version of r2dii.analysis from GitHub with:
+
+```r
+# install.packages("devtools")
+devtools::install_github("2DegreesInvesting/r2dii.analysis")
+```
+
+Then load it with:
+
+```{r}
+library(r2dii.analysis)
+```
+
+The best place to start your review is its [website](https://2degreesinvesting.github.io/r2dii.analysis/index.html). Start reviewing the home page, then each item under [Reference](https://2degreesinvesting.github.io/r2dii.analysis/reference/index.html), and finally each of the two article ([1](https://2degreesinvesting.github.io/r2dii.analysis/articles/target-sda.html), [2](https://2degreesinvesting.github.io/r2dii.analysis/articles/target-market-share.html)). At every stage ask yourself three questions:
+
+* Does the code run as expected?
+* Are the examples useful?
+* Is the documentation clear and the style natural?
+
+You may leave a quick comment at the end of this post, or a longer comment as a [GitHub issue](https://github.com/2DegreesInvesting/r2dii.analysis/issues/new/choose).
+
+Thank you!
