@@ -13,9 +13,7 @@ output:
     toc_depth: 3
     self_contained: true
 categories:
-  - blogging
-  - writing
-  - community
+  - ds-incubator
 preview: preview.jpg
 twitter:
   site: "@mauro_lepore"

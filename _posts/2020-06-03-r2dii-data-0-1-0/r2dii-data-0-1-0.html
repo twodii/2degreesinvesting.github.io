@@ -48,7 +48,7 @@
   <!--radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","base_url","date","output","categories","preview","twitter"]}},"value":[{"type":"character","attributes":{},"value":["r2dii.data 0.1.0 is now on CRAN"]},{"type":"character","attributes":{},"value":["This release includes new and improved datasets.\n"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url"]}},"value":[{"type":"character","attributes":{},"value":["Mauro Lepore"]},{"type":"character","attributes":{},"value":["https://github.com/maurolepore"]}]}]},{"type":"character","attributes":{},"value":["https://2degreesinvesting.github.io/"]},{"type":"character","attributes":{},"value":["2020-06-03"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["toc","toc_depth","self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[true]},{"type":"integer","attributes":{},"value":[3]},{"type":"logical","attributes":{},"value":[true]}]}]},{"type":"character","attributes":{},"value":["r2dii","software development","release"]},{"type":"character","attributes":{},"value":["preview.jpg"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["site","creator"]}},"value":[{"type":"character","attributes":{},"value":["@mauro_lepore"]},{"type":"character","attributes":{},"value":["@mauro_lepore"]}]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","base_url","date","output","categories","preview","twitter"]}},"value":[{"type":"character","attributes":{},"value":["r2dii.data 0.1.0 is now on CRAN"]},{"type":"character","attributes":{},"value":["This release includes new and improved datasets.\n"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url"]}},"value":[{"type":"character","attributes":{},"value":["Mauro Lepore"]},{"type":"character","attributes":{},"value":["https://github.com/maurolepore"]}]}]},{"type":"character","attributes":{},"value":["https://2degreesinvesting.github.io/"]},{"type":"character","attributes":{},"value":["2020-06-03"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["toc","toc_depth","self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[true]},{"type":"integer","attributes":{},"value":[3]},{"type":"logical","attributes":{},"value":[true]}]}]},{"type":"character","attributes":{},"value":["r2dii","package"]},{"type":"character","attributes":{},"value":["preview.jpg"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["site","creator"]}},"value":[{"type":"character","attributes":{},"value":["@mauro_lepore"]},{"type":"character","attributes":{},"value":["@mauro_lepore"]}]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   
@@ -1993,20 +1993,20 @@ library(dplyr)</code></pre>
 <div class="layout-chunk" data-layout="l-body">
 <pre class="r"><code>
 naics_classification
-#&gt; # A tibble: 68 x 4
-#&gt;     code code_level sector       borderline
-#&gt;    &lt;dbl&gt; &lt;chr&gt;      &lt;chr&gt;        &lt;lgl&gt;     
-#&gt;  1    11 sector     not in scope FALSE     
-#&gt;  2    21 sector     not in scope FALSE     
-#&gt;  3    22 sector     not in scope FALSE     
-#&gt;  4    23 sector     not in scope FALSE     
-#&gt;  5    31 sector     not in scope FALSE     
-#&gt;  6    32 sector     not in scope FALSE     
-#&gt;  7    33 sector     not in scope FALSE     
-#&gt;  8    42 sector     not in scope FALSE     
-#&gt;  9    44 sector     not in scope FALSE     
-#&gt; 10    45 sector     not in scope FALSE     
-#&gt; # … with 58 more rows</code></pre>
+#&gt; # A tibble: 1,057 x 4
+#&gt;      code naics_title                            sector     borderline
+#&gt;     &lt;dbl&gt; &lt;chr&gt;                                  &lt;chr&gt;      &lt;lgl&gt;     
+#&gt;  1 111110 soybean farming                        not in sc… FALSE     
+#&gt;  2 111120 oilseed (except soybean) farming       not in sc… FALSE     
+#&gt;  3 111130 dry pea and bean farming               not in sc… FALSE     
+#&gt;  4 111140 wheat farming                          not in sc… FALSE     
+#&gt;  5 111150 corn farming                           not in sc… FALSE     
+#&gt;  6 111160 rice farming                           not in sc… FALSE     
+#&gt;  7 111191 oilseed and grain combination farming  not in sc… FALSE     
+#&gt;  8 111199 all other grain farming                not in sc… FALSE     
+#&gt;  9 111211 potato farming                         not in sc… FALSE     
+#&gt; 10 111219 other vegetable (except potato) and m… not in sc… FALSE     
+#&gt; # … with 1,047 more rows</code></pre>
 </div>
 <p>The dataset <code>region_isos</code> now includes the value “global” in the column <code>region</code>; it also gained the column <code>source</code>.</p>
 <div class="layout-chunk" data-layout="l-body">

@@ -13,7 +13,6 @@ output:
     self_contained: true
 categories:
   - other
-  - community
 preview: preview.jpg
 twitter:
   site: "@mauro_lepore"

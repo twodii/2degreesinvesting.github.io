@@ -14,13 +14,14 @@ output:
     self_contained: true
 categories:
   - r2dii
-  - software development
-  - release
+  - package
 preview: preview.jpg
 twitter:
   site: "@mauro_lepore"
   creator: "@mauro_lepore"
 ---
+
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(

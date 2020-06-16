@@ -13,9 +13,13 @@ output:
     toc_depth: 3
     self_contained: true
 categories:
+  - learn
   - r2dii
-  - software development
-  - release
+  - ds-incubator
+  - coding-helpdesk
+  - other
+  - programming
+  - package
 preview: preview.jpg
 twitter:
   site: "@mauro_lepore"

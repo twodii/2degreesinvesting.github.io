@@ -14,8 +14,7 @@ output:
     self_contained: true
 categories:
   - r2dii
-  - software development
-  - release
+  - package
 preview: preview.jpg
 twitter:
   site: "@mauro_lepore"

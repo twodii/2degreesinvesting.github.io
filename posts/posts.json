@@ -15,7 +15,7 @@
       "community"
     ],
     "preview": "posts/2020-06-11-r2dii-analysis-release-candidate/preview.jpg",
-    "last_modified": "2020-06-15T10:17:20-05:00",
+    "last_modified": "2020-06-16T08:42:16-05:00",
     "input_file": {}
   },
   {
@@ -30,11 +30,10 @@
     ],
     "date": "2020-06-10",
     "categories": [
-      "other",
-      "community"
+      "other"
     ],
     "preview": "posts/2020-06-10-what-technical-skills-matter/preview.jpg",
-    "last_modified": "2020-06-11T07:53:16-05:00",
+    "last_modified": "2020-06-16T08:42:07-05:00",
     "input_file": {}
   },
   {
@@ -50,11 +49,10 @@
     "date": "2020-06-05",
     "categories": [
       "r2dii",
-      "software development",
-      "release"
+      "package"
     ],
     "preview": "posts/2020-06-05-r2dii-match-0-0-2/preview.jpg",
-    "last_modified": "2020-06-05T17:40:54-05:00",
+    "last_modified": "2020-06-16T08:41:52-05:00",
     "input_file": {}
   },
   {
@@ -70,11 +68,10 @@
     "date": "2020-06-03",
     "categories": [
       "r2dii",
-      "software development",
-      "release"
+      "package"
     ],
     "preview": "posts/2020-06-03-r2dii-data-0-1-0/preview.jpg",
-    "last_modified": "2020-06-05T17:40:45-05:00",
+    "last_modified": "2020-06-16T08:41:43-05:00",
     "input_file": {}
   },
   {
@@ -89,12 +86,10 @@
     ],
     "date": "2020-06-02",
     "categories": [
-      "blogging",
-      "writing",
-      "community"
+      "ds-incubator"
     ],
     "preview": "posts/2020-06-02-shape-and-share-your-thoughts-here/preview.jpg",
-    "last_modified": "2020-06-05T17:40:29-05:00",
+    "last_modified": "2020-06-16T08:41:34-05:00",
     "input_file": {}
   }
 ]
