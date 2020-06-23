@@ -34,13 +34,21 @@ At 2DII we use a particular set of tools and practices. Here is what you need to
 
 We collaborate on GitHub and use a workflow called [GitHub flow](https://guides.github.com/introduction/flow/). Whatever your experience with GitHub, I recommend these resources:
 
-* A 4' video: [What is GitHub](https://youtu.be/w3jLJU7DT5E).
-* An interactive tutorial (1-2 h): [Introduction to GitHub](https://lab.github.com/githubtraining/introduction-to-github) from [GitHub Lab](https://youtu.be/9S0p8YMQzsM).
+* Video (4'): [What is GitHub](https://youtu.be/w3jLJU7DT5E).
+* Tutorial (1-2 h): [Introduction to GitHub](https://lab.github.com/githubtraining/introduction-to-github) (from [GitHub Lab](https://youtu.be/9S0p8YMQzsM)).
 
-### Connect RStudio to Git and GitHub
+### Connect GitHub and RStudio
 
 Most of our code on GitHub is written in R from RStudio. Here is how to set things up:
 
-* Book chapter on how to [Connect RStudio to Git and GitHub](https://happygitwithr.com/rstudio-git-github.html). If you are already set, use this guide to confirm we are all set in the same way.
+* Book chapter: [Connect RStudio to Git and GitHub](https://happygitwithr.com/rstudio-git-github.html). If you are already set, use this guide to confirm we are all set in the same way.
 
-* A 35' showing [how to contribute to GitHub from the terminal and from RStudio](https://youtu.be/y8lOGz1yAj4)^[Caveat: In this video I violate the GitHub flow because I submit a pull request not from a `feature` (as I should) branch but from the `master` branch.].
+* Video (35'): [How to contribute to GitHub from the terminal and from RStudio](https://youtu.be/y8lOGz1yAj4)^[Caveat: In this video I violate the GitHub flow because I submit a pull request not from a `feature` (as I should) branch but from the `master` branch.].
+
+### Why Git, and how it relates to GitHub and RStudio
+
+If you never used Git before you may ask, What is Git and why do we use it?
+
+The heart of GitHub is Git. We use Git to keep track of every meaningful change in our projects. In general we do this from RStudio. This resource can help you understand why we bother; but you may skip it if you already use Git and think it's indeed useful.
+
+* Video (50'): [Collaboration and time travel- version control with git, github and RStudio](https://rstudio.com/resources/webinars/collaboration-and-time-travel-version-control-with-git-github-and-rstudio/)
