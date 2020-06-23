@@ -1,5 +1,5 @@
 ---
-title: "Welcome to 2DII on GitHub"
+title: "Onboarding to GitHub and RStudio"
 description: |
   "Tools and practices to hit the ground running"
 author:
