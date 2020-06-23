@@ -28,7 +28,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-At 2DII we use a particular set of tools and practices. Here is what you need to know to hit the ground running.
+At 2DII we use a particular set of tools and practices. This post is about what you should know to work effectively at 2DII or any of the many organizations that use the same tools and practices.
 
 ### Introduction to GitHub
 
@@ -52,3 +52,7 @@ If you never used Git before you may ask, What is Git and why do we use it?
 The heart of GitHub is Git. We use Git to keep track of every meaningful change in our projects. In general we do this from RStudio. This resource can help you understand why we bother; but you may skip it if you already use Git and think it's indeed useful.
 
 * Video (50'): [Collaboration and time travel- version control with git, github and RStudio](https://rstudio.com/resources/webinars/collaboration-and-time-travel-version-control-with-git-github-and-rstudio/)
+
+### Next
+
+We are working on multiple projects you may want to know [about](https://2degreesinvesting.github.io/about.html). Please engage and share your ideas with us.
