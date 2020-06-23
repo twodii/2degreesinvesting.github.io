@@ -1,7 +1,7 @@
 ---
 title: "Onboarding to GitHub and RStudio"
 description: |
-  "Tools and practices to hit the ground running"
+  Tools and practices to hit the ground running
 author:
   - name: Mauro Lepore
     url: https://github.com/maurolepore
