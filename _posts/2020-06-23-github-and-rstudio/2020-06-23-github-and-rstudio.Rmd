@@ -43,7 +43,7 @@ Most of our code on GitHub is written in R from RStudio. Here is how to set thin
 
 * Book chapter: [Connect RStudio to Git and GitHub](https://happygitwithr.com/rstudio-git-github.html). If you are already set, use this guide to confirm we are all set in the same way.
 
-* Video (35'): [How to contribute to GitHub from the terminal and from RStudio](https://youtu.be/y8lOGz1yAj4)^[Caveat: In this video I violate the GitHub flow because I submit a pull request not from a `feature` (as I should) branch but from the `master` branch.].
+* Video (35'): [How to contribute to GitHub from the terminal and from RStudio](https://youtu.be/y8lOGz1yAj4)^[Caveat: In this video I violate the GitHub flow in that I submit a pull request not from a `feature` branch (as I should) but from the `master` branch.].
 
 ### Why Git, and how it relates to GitHub and RStudio
 
