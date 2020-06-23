@@ -1,5 +1,24 @@
 [
   {
+    "path": "posts/2020-06-23-welcome-to-our-github-organization/",
+    "title": "Welcome to 2DII on GitHub",
+    "description": "\"Tools and practices to hit the ground running\"",
+    "author": [
+      {
+        "name": "Mauro Lepore",
+        "url": "https://github.com/maurolepore"
+      }
+    ],
+    "date": "2020-06-23",
+    "categories": [
+      "other",
+      "community"
+    ],
+    "preview": "posts/2020-06-23-welcome-to-our-github-organization/preview.jpg",
+    "last_modified": "2020-06-23T13:12:09-05:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2020-06-11-r2dii-analysis-release-candidate/",
     "title": "r2dii.analysis: Release candidate",
     "description": "Help us get to the first release",
