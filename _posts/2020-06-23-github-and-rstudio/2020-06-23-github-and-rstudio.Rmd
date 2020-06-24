@@ -37,11 +37,12 @@ We collaborate on GitHub, and embrace the so called [GitHub flow](https://guides
 * [What is GitHub?](https://youtu.be/w3jLJU7DT5E) (4' video).
 * [Introduction to GitHub](https://lab.github.com/githubtraining/introduction-to-github) (1-2 h tutorial from [GitHub Lab](https://youtu.be/9S0p8YMQzsM)).
 
-### Connect GitHub and RStudio
+### Setup
 
 Most of our code on GitHub is written in R and from RStudio. Here is how to set things up:
 
-* How to [Connect RStudio to Git and GitHub](https://happygitwithr.com/rstudio-git-github.html) (book chapter 1+ h). If you are already set, use this guide to confirm we are all set in the same way.
+* Setup ([instructions](https://happygitwithr.com/workshops.html); [20' video](https://youtu.be/YDsoKUVsJls)). If you are already set, use this guide to confirm we are all set in the same way.
+
 * [How to contribute to GitHub from the terminal and from RStudio](https://youtu.be/y8lOGz1yAj4) (35' video)^[Caveat: In this video I violate the GitHub flow in that I submit a pull request not from a `feature` branch (as I should) but from the `master` branch.].
 
 ### Why Git, and how it relates to GitHub and RStudio
@@ -57,3 +58,16 @@ Git is the heart of GitHub. We use it to track each meaningful change in our pro
 We are working on multiple projects you may want to know [about](https://2degreesinvesting.github.io/about.html). If you have questions about anything in this post, come to the [coding-helpdesk](xxxxxxxxx); we'll be glad to help you.
 
 Before you go, please help us improve this post; that will help your future colleagues. What is one thing you particularly liked, and one thing we could improve?
+
+
+# TODO
+
+* maybe link 2DegreesInvesting/resources as well? (edited)  -- JACKSON
+
+* maybe something about GitHub organizations, since that’s something that not everyone is familiar with / has worked with in a previous org?
+
+* and something about getting/requesting access to our repositories since some (none?) of our repos are open to everyone in the 2dii GitHub org? -- CJ
+
+* Advertise the ds-incubator
+* Advertise the #coding channel
+* Invite people to write blog posts
