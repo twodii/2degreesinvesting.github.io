@@ -54,4 +54,6 @@ Git is the heart of GitHub. We use it to track each meaningful change in our pro
 
 ### Next
 
-We are working on multiple projects you may want to know [about](https://2degreesinvesting.github.io/about.html). Please engage and share your ideas with us.
+We are working on multiple projects you may want to know [about](https://2degreesinvesting.github.io/about.html). If you have questions about anything in this post, come to the [coding-helpdesk](xxxxxxxxx); we'll be glad to help you.
+
+Before you go, please help us improve this post; that will help your future colleagues. What is one thing you particularly liked, and one thing we could improve?
