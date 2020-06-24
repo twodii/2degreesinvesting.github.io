@@ -41,13 +41,15 @@ We collaborate on GitHub, and embrace the so called [GitHub flow](https://guides
 
 Most of our code on GitHub is written in R and from RStudio. Here is how to set things up:
 
-* How to [Connect RStudio to Git and GitHub](https://happygitwithr.com/rstudio-git-github.html) (book chapter). If you are already set, use this guide to confirm we are all set in the same way.
+* How to [Connect RStudio to Git and GitHub](https://happygitwithr.com/rstudio-git-github.html) (book chapter 1+ h). If you are already set, use this guide to confirm we are all set in the same way.
 * [How to contribute to GitHub from the terminal and from RStudio](https://youtu.be/y8lOGz1yAj4) (35' video)^[Caveat: In this video I violate the GitHub flow in that I submit a pull request not from a `feature` branch (as I should) but from the `master` branch.].
 
 ### Why Git, and how it relates to GitHub and RStudio
 
-Git is the heart of GitHub. We use it to track each meaningful change in our projects. You may use Git from the terminal or from a dedicated program (e.g. [GitKraken](https://www.gitkraken.com/)); but you rarely need anything special because the most useful features of Git are available directly from RStudio. This resource explains why we use Git and how it relates to Github and RStudio:
+Git is the heart of GitHub. We use it to track each meaningful change in our projects. You may use Git from the terminal or from a dedicated program (e.g. [GitKraken](https://www.gitkraken.com/)); but you rarely need anything special because the most useful features of Git are available directly from RStudio. 
 
+* [Git handbook](https://guides.github.com/introduction/git-handbook/#version-control) (10' read).
+* [Git cheat sheets](https://github.github.com/training-kit/).
 * [Collaboration and time travel- version control with git, github and RStudio](https://rstudio.com/resources/webinars/collaboration-and-time-travel-version-control-with-git-github-and-rstudio/) (50' video).
 
 ### Next
