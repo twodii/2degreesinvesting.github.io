@@ -37,6 +37,12 @@ We collaborate on GitHub, and embrace the so called [GitHub flow](https://guides
 * [What is GitHub?](https://youtu.be/w3jLJU7DT5E) (4' video).
 * [Introduction to GitHub](https://lab.github.com/githubtraining/introduction-to-github) (1-2 h tutorial from [GitHub Lab](https://youtu.be/9S0p8YMQzsM)).
 
+### Join 2DII's GitHub organization
+
+> [GitHub] Organizations are shared accounts where businesses and open-source projects can collaborate across many projects at once. Owners and administrators can manage member access to the organization's data and projects with sophisticated security and administrative features. -- [About organizations](https://help.github.com/en/github/setting-up-and-managing-organizations-and-teams/about-organizations)
+
+To join [our GitHub organization](https://github.com/2DegreesInvesting) you need to be invited by someone with special ("Owner") privileges. Find that person by asking on the `#coding` channel on 2DII's Slack and share your GitHub username.
+
 ### Setup
 
 Most of our code on GitHub is written in R and from RStudio. Here is how to set things up:
@@ -55,6 +61,13 @@ Git is the heart of GitHub. We use it to track each meaningful change in our pro
 
 ### Next
 
-We are working on multiple projects you may want to know [about](https://2degreesinvesting.github.io/about.html).
+We are working on multiple projects you may want to know about:
 
-What do you think a successful onboarding should have?
+* [ds-incubator](https://github.com/2DegreesInvesting/ds-incubator): Weekly meetups to share best practices.
+* [resources](https://2degreesinvesting.github.io/resources/): A place to explore and share resources.
+* [coding-helpdesk](https://2degreesinvesting.github.io/coding-helpdesk): Live support by appointment.
+* [r2dii](https://2degreesinvesting.github.io/r2dii/index.html): A collection of R packages we maintain.
+
+----
+
+What else (or less) do you think a successful onboarding should have?
