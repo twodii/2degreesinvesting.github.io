@@ -2352,7 +2352,7 @@ Figure 1: The website of every package has a link to report a bug.
 <p>The link to report a bug opens a page with two fields:</p>
 <ol type="1">
 <li>A Title (like the “subject” of an email) to summarize your issue;</li>
-<li>A body to detail your issue; please follow our instructions carefully. We know you are busy. The effort you invest in following these instructions will save you from answering our questions, and ultimately will solve your issue faster.</li>
+<li>A body to detail your issue. Please follow our instructions carefully to avoid emails and solve the issue quickly. We know you are busy.</li>
 </ol>
 <div class="layout-chunk" data-layout="l-body">
 <div class="figure"><span id="fig:open-an-issue"></span>
@@ -2363,29 +2363,38 @@ Figure 2: The web page to report a bug is like an email.
 </div>
 </div>
 <h2 id="whats-beyond-our-scope">What’s beyond our scope</h2>
-<p>Our scope is limited. We assume you are familiar with R. We can’t teach you R but you may like <a href="https://github.com/2DegreesInvesting/resources/issues?q=is%3Aissue+is%3Aopen+label%3Alearn+label%3Arstats">our favorite resources to learn R</a>. The issues we can address are those caused specifically by the packages we build. Everything else is beyond our scope and you should report elsewhere – maybe at <a href="https://stackoverflow.com/" class="uri">https://stackoverflow.com/</a> or <a href="https://community.rstudio.com/" class="uri">https://community.rstudio.com/</a>.</p>
+<p>Our scope is limited. We assume you are familiar with R. We can’t teach you R but you may like <a href="https://github.com/2DegreesInvesting/resources/issues?q=is%3Aissue+is%3Aopen+label%3Alearn+label%3Arstats">our favorite resources to learn R</a>. The issues we can address are those caused specifically by the packages we build. Report everything else at <a href="https://stackoverflow.com/" class="uri">https://stackoverflow.com/</a> or <a href="https://community.rstudio.com/" class="uri">https://community.rstudio.com/</a>.</p>
 <p>The most common out-of-scope problems are installation errors. It’s unlikely the problem comes from our packages because we continuously check that they install correctly with – multiple version of R – on Mac, Windows, Linux, and several other platforms (<a href="https://cran.r-project.org/web/checks/check_results_r2dii.match.html">example</a>). What should you do then?</p>
 <h3 id="a-tale-of-two-r-programmers">A tale of two R programmers</h3>
-<p>Mike and Lucy are working together and want to use the package r2dii.match. They try to install it with <code>install.packages(&quot;r2dii.match&quot;)</code> but get an error.</p>
-<ul>
-<li><p>Lucy: “Bummer!”</p></li>
-<li><p>Mike: “Wait; let’s ready the error message”.</p></li>
-</ul>
-<p>They both try to interpret the error message but it makes no sense. Lucy Googles the error message and finds some promising results. Mike tries a few things but fails; Lucy tries a few more things but nothing works.</p>
-<ul>
-<li><p>Lucy: “It’s all quite confusing but there is something about versions. These R people move fast; there is new stuff every day. Maybe the R stuff we have is just too old”.</p></li>
-<li><p>Mike: “What if we ask at <a href="https://community.rstudio.com/" class="uri">https://community.rstudio.com/</a>? Everyone there seems quite friendly?”</p></li>
-<li><p>Lucy: “Yes, those folks <em>are</em> cool; but let’s first update everything – I mean R, RStudio, and all R packages. It can’t hurt and sooner or later we’ll have to do it. <a href="https://happygitwithr.com/install-r-rstudio.html">Here is a nice guide</a>”.</p></li>
-<li><p>Mike: “Yeah, it never seems like a good time to do it so let’s do it now”.</p></li>
-</ul>
+<p>Mike and Lucy are working together and want to use the package r2dii.match. They try to install it with <code>install.packages(&quot;r2dii.match&quot;)</code> but they get an error.</p>
+<blockquote>
+<p>Lucy: “Bummer!”</p>
+</blockquote>
+<blockquote>
+<p>Mike: “Wait; let’s read the error message carefully.”</p>
+</blockquote>
+<p>The error message makes no sense. Lucy Googles it and finds some promising results. Mike tries a few hacks but nothing works.</p>
+<blockquote>
+<p>Lucy: “It’s all sooooooo confusing; but there is something about versions, right? These R geeks move fast – they pump new stuff every day!”</p>
+</blockquote>
+<blockquote>
+<p>Mike: “What if we ask at <a href="https://community.rstudio.com/" class="uri">https://community.rstudio.com/</a>? Everyone there seems quite friendly?”</p>
+</blockquote>
+<blockquote>
+<p>Lucy: “Yes, those folks <em>are</em> cool; but let’s first update everything – I mean R, RStudio, and all R packages. It can’t hurt and sooner or later we’ll have to do it anyway. <a href="https://happygitwithr.com/install-r-rstudio.html">Here is a nice guide</a>.”</p>
+</blockquote>
+<blockquote>
+<p>Mike: “Yeah, it never seems like a good time to update. Let’s just bite the bullet.”</p>
+</blockquote>
 <p>After an hour or so they are done.</p>
-<ul>
-<li><p>Lucy: “Okay, here we go again: <code>install.packages(&quot;r2dii.match&quot;)</code>”.</p></li>
-<li><p>Mike: “Fingers crosses”.</p></li>
-</ul>
-<p>They look at each other; then Lucy runs the code and …</p>
-<p>It just works.</p>
-<hr />
+<blockquote>
+<p>Lucy: “Okay, here we go again: <code>install.packages(&quot;r2dii.match&quot;)</code>.”</p>
+</blockquote>
+<blockquote>
+<p>Mike: “Fingers crosses.”</p>
+</blockquote>
+<p>They look at each other. Then Lucy runs the code. Then it just works.</p>
+<p>Takeaway:</p>
 <blockquote>
 <p>Get current, people. You don’t want to adopt new things on day one. But at some point, running old versions of software adds unnecessary difficulty. – <a href="https://happygitwithr.com/install-r-rstudio.html">How to think about upgrading R and RStudio</a></p>
 </blockquote>

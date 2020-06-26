@@ -40,7 +40,7 @@ knitr::include_graphics("http://i.imgur.com/UkMPpem.png")
 The link to report a bug opens a page with two fields:
 
 1. A Title (like the "subject" of an email) to summarize your issue;
-2. A body to detail your issue; please follow our instructions carefully. We know you are busy. The effort you invest in following these instructions will save you from answering our questions, and ultimately will solve your issue faster.
+2. A body to detail your issue. Please follow our instructions carefully to avoid emails and solve the issue quickly. We know you are busy.
 
 ```{r open-an-issue, fig.cap="The web page to report a bug is like an email."}
 knitr::include_graphics("http://i.imgur.com/TNxi4xB.png")
@@ -48,38 +48,36 @@ knitr::include_graphics("http://i.imgur.com/TNxi4xB.png")
 
 ## What's beyond our scope
 
-Our scope is limited. We assume you are familiar with R. We can't teach you R but you may like [our favorite resources to learn R](https://github.com/2DegreesInvesting/resources/issues?q=is%3Aissue+is%3Aopen+label%3Alearn+label%3Arstats). The issues we can address are those caused specifically by the packages we build. Everything else is beyond our scope and you should report elsewhere -- maybe at <https://stackoverflow.com/> or <https://community.rstudio.com/>.
+Our scope is limited. We assume you are familiar with R. We can't teach you R but you may like [our favorite resources to learn R](https://github.com/2DegreesInvesting/resources/issues?q=is%3Aissue+is%3Aopen+label%3Alearn+label%3Arstats). The issues we can address are those caused specifically by the packages we build. Report everything else at <https://stackoverflow.com/> or <https://community.rstudio.com/>.
 
 The most common out-of-scope problems are installation errors. It's unlikely the problem comes from our packages because we continuously check that they install correctly with -- multiple version of R -- on Mac, Windows, Linux, and several other platforms ([example](https://cran.r-project.org/web/checks/check_results_r2dii.match.html)). What should you do then?
 
 ### A tale of two R programmers
 
-Mike and Lucy are working together and want to use the package r2dii.match. They try to install it with `install.packages("r2dii.match")` but get an error.
+Mike and Lucy are working together and want to use the package r2dii.match. They try to install it with `install.packages("r2dii.match")` but they get an error.
 
-- Lucy: "Bummer!"
+> Lucy: "Bummer!"
 
-- Mike: "Wait; let's ready the error message".
+> Mike: "Wait; let's read the error message carefully."
 
-They both try to interpret the error message but it makes no sense. Lucy Googles the error message and finds some promising results. Mike tries a few things but fails; Lucy tries a few more things but nothing works.
+The error message makes no sense. Lucy Googles it and finds some promising results. Mike tries a few hacks but nothing works.
 
-- Lucy: "It's all quite confusing but there is something about versions. These R people move fast; there is new stuff every day. Maybe the R stuff we have is just too old".
+> Lucy: "It's all sooooooo confusing; but there is something about versions, right? These R geeks move fast -- they pump new stuff every day!"
 
-- Mike: "What if we ask at <https://community.rstudio.com/>? Everyone there seems quite friendly?"
+> Mike: "What if we ask at <https://community.rstudio.com/>? Everyone there seems quite friendly?"
 
-- Lucy: "Yes, those folks _are_ cool; but let's first update everything -- I mean R, RStudio, and all R packages. It can't hurt and sooner or later we'll have to do it. [Here is a nice guide](https://happygitwithr.com/install-r-rstudio.html)".
+> Lucy: "Yes, those folks _are_ cool; but let's first update everything -- I mean R, RStudio, and all R packages. It can't hurt and sooner or later we'll have to do it anyway. [Here is a nice guide](https://happygitwithr.com/install-r-rstudio.html)."
 
-- Mike: "Yeah, it never seems like a good time to do it so let's do it now".
+> Mike: "Yeah, it never seems like a good time to update. Let's just bite the bullet."
 
 After an hour or so they are done.
 
-- Lucy: "Okay, here we go again: `install.packages("r2dii.match")`".
+> Lucy: "Okay, here we go again: `install.packages("r2dii.match")`."
 
-- Mike: "Fingers crosses".
+> Mike: "Fingers crosses."
 
-They look at each other; then Lucy runs the code and ...
+They look at each other. Then Lucy runs the code. Then it just works.
 
-It just works.
-
----
+Takeaway:
 
 > Get current, people. You don’t want to adopt new things on day one. But at some point, running old versions of software adds unnecessary difficulty. -- [How to think about upgrading R and RStudio](https://happygitwithr.com/install-r-rstudio.html)
