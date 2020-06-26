@@ -1,5 +1,26 @@
 [
   {
+    "path": "posts/2020-06-26-instructions-to-raise-an-issue/",
+    "title": "How to raise an issue",
+    "description": "Help us help you",
+    "author": [
+      {
+        "name": "Mauro Lepore",
+        "url": "https://github.com/maurolepore"
+      }
+    ],
+    "date": "2020-06-26",
+    "categories": [
+      "other",
+      "community"
+    ],
+    "preview": "posts/2020-06-26-instructions-to-raise-an-issue/preview.png",
+    "last_modified": "2020-06-26T16:23:16-05:00",
+    "input_file": {},
+    "preview_width": 1438,
+    "preview_height": 912
+  },
+  {
     "path": "posts/2020-06-23-github-and-rstudio/",
     "title": "Onboarding to GitHub and RStudio",
     "description": "Tools and practices to hit the ground running",
