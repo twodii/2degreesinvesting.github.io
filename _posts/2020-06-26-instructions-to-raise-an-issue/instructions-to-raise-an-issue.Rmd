@@ -74,7 +74,7 @@ After an hour or so they are done.
 
 > Lucy: "Okay, here we go again: `install.packages("r2dii.match")`."
 
-> Mike: "Fingers crosses."
+> Mike: "Fingers crossed."
 
 They look at each other. Then Lucy runs the code. Then it just works.
 
