@@ -1,5 +1,24 @@
 [
   {
+    "path": "posts/2020-06-29-r2dii-analysis-0-0-1/",
+    "title": "r2dii.analysis 0.0.1 is now on CRAN",
+    "description": "Tools to calculate climate targets for financial portfolios",
+    "author": [
+      {
+        "name": "Mauro Lepore",
+        "url": "https://github.com/maurolepore"
+      }
+    ],
+    "date": "2020-06-29",
+    "categories": [
+      "r2dii",
+      "package"
+    ],
+    "preview": "posts/2020-06-29-r2dii-analysis-0-0-1/preview.jpg",
+    "last_modified": "2020-06-29T10:43:55-05:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2020-06-26-instructions-to-raise-an-issue/",
     "title": "How to raise an issue",
     "description": "Help us help you",

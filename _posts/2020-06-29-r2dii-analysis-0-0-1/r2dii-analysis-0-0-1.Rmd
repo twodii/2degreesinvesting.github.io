@@ -1,0 +1,86 @@
+---
+title: "r2dii.analysis 0.0.1 is now on CRAN"
+description: |
+  Tools to calculate climate targets for financial portfolios
+author:
+  - name: Mauro Lepore
+    url: https://github.com/maurolepore
+base_url: https://2degreesinvesting.github.io/
+date: 2020-06-29
+output: 
+  distill::distill_article:
+    toc: true
+    toc_depth: 3
+    self_contained: true
+categories:
+  - r2dii
+  - package
+preview: preview.jpg
+twitter:
+  site: "@mauro_lepore"
+  creator: "@mauro_lepore"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE,
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+r2dii.analysis is an R package that provides tools to calculate climate targets for financial portfolios. The version 0.0.1 is the first one released on CRAN.
+
+You can install it from CRAN with:
+
+```r
+install.packages("r2dii.analysis")
+```
+
+Then use it with:
+
+```{r}
+library(r2dii.analysis)
+```
+
+The best place to know about this package is on its [website](https://2degreesinvesting.github.io/r2dii.analysis/). The [home](https://2degreesinvesting.github.io/r2dii.analysis/index.html) page details how to install and use this package, and includes a number of useful links -- to try r2dii.analysis before you install it, to minimize installation errors, and to report bugs or raise issues. The navigation bar includes three important sections: (1) [_Get started_](https://2degreesinvesting.github.io/r2dii.analysis/articles/r2dii-analysis.html) introduces you to the package; (2) [_Reference_](https://2degreesinvesting.github.io/r2dii.analysis/reference/index.html) lists every feature and links to its help file; and (3) _Articles_ explains the [Sectoral Decarbonization Approach (SDA)](https://2degreesinvesting.github.io/r2dii.analysis/articles/target-sda.html), and the [Market Share Approach](https://2degreesinvesting.github.io/r2dii.analysis/articles/target-market-share.html).
+
+As a preview, this snippet shows one feature of r2dii.analysis:
+
+* Before you can use r2dii.analysis you need to load and prepare your data. Here I use toy data from the package r2dii.data, and two functions from the package r2dii.match.
+
+```{r}
+library(r2dii.match)
+library(r2dii.data)
+
+# Using the package r2dii.data to imitate loading data
+loanbook <- loanbook_demo
+ald <- ald_demo
+co2 <- co2_intensity_scenario_demo
+
+# Using the package r2dii.match to prepare the data
+matched <- match_name(loanbook, ald) %>% prioritize()
+```
+
+* You can now use r2dii.analysis, for example, to calculate targets of CO2 emissions per unit production at the portfolio-level -- using the sectoral-decarbonization approach (SDA).
+
+```{r}
+matched %>% target_sda(ald = ald, co2_intensity_scenario = co2)
+```
+
+## Acknowledgements
+
+```{r Acknowledgements, echo=FALSE}
+thank <- function(x) {
+  x <- sort(x)
+  paste0("[", x, "]", sprintf("(https://github.com/%s)", x), collapse = ", ")
+}
+contributors <- c(
+  "jdhoffa",
+  "maurolepore",
+  "Clare2D",
+  "vintented"
+)
+```
+
+Although this release includes commits from only a few contributors (`r thank(contributors)`), it is thanks to ideas and feedback from many more colleagues at 2DII.
