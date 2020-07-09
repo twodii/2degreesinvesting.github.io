@@ -1,5 +1,23 @@
 [
   {
+    "path": "posts/2020-07-08-installing-packages-without-internet/",
+    "title": "Installing R packages when you are offline",
+    "description": "Some options and hacks",
+    "author": [
+      {
+        "name": "Mauro Lepore",
+        "url": "https://github.com/maurolepore"
+      }
+    ],
+    "date": "2020-07-08",
+    "categories": [
+      "other"
+    ],
+    "preview": "posts/2020-07-08-installing-packages-without-internet/preview.jpg",
+    "last_modified": "2020-07-09T14:35:16-05:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2020-06-30-r2dii-suite-is-now-on-cran/",
     "title": "r2dii suite is now on CRAN",
     "description": "R packages to implement the core functionality of the Paris Agreement Capital Transition Assessment (PACTA)",
