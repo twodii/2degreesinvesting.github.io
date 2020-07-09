@@ -2337,11 +2337,11 @@ distill-header .nav a {
 <div class="d-article">
 <p>When you can’t install R packages from a repository online, what <em>can</em> you do? I won’t discuss any solution deeply; instead I’ll discuss a number of alternatives briefly, and share links for you to explore.</p>
 <h2 id="dont-do-it-ask-it">Don’t do it: Ask IT</h2>
-<p>Often the reason why can’t access online repositories is because your computer is part of a larger network that someone else manages and limits. Find that person and ask them if they can install in your computer the R environment you need. If that isn’t possible, keep reading but keep in mind that the solutions I describe may take some time and effort; and any hack may leave your system in bad shape. Even if you have to face red tape or wait some time, it may be best to find the right person for this job.</p>
+<p>Often the reason why you can’t access online repositories is because your computer is part of a larger network that someone else manages and limits. Find that person and ask them if they can install in your computer the R environment you need. If that isn’t possible, keep reading but keep in mind that the solutions I describe may take some time and effort; and any hack may leave your system in bad shape. Even if you have to face red tape or wait some time, it may be best to find the right person for this job.</p>
 <h2 id="dont-do-it-can-you-get-away-with-rstudio.cloud">Don’t do it: Can you get away with rstudio.cloud?</h2>
 <p>Before you bother installing anything, you may want to first try the packages you think you want. At <a href="http://rstudio.cloud/" class="uri">http://rstudio.cloud/</a> you can get an online instance of RStudio and install in it whatever packages you want. If what you experience is not what you want, you are done; if it is what you want, keep reading.</p>
 <h2 id="docker">Docker</h2>
-<p><a href="https://docs.docker.com/">Docker</a> allows you to build a mini “guest” computer – called “container” – and run it from any “host” computer. With Docker you can create the R environment you want, including a specific version of R and R packages. Explore the useful Docker <a href="https://hub.docker.com/u/rocker/">images</a> from the <a href="https://www.rocker-project.org/">rocker project</a>; they can help you create a Docker container with R, RStudio, and all the packages you need – quickly. You can run such a complete container even offline, and from a host computer that lack R and RStudio.</p>
+<p><a href="https://docs.docker.com/">Docker</a> allows you to build a mini “guest” computer – called “container” – and run it from any “host” computer. With Docker you can create the R environment you want, including a specific version of R and R packages. Explore the useful Docker <a href="https://hub.docker.com/u/rocker/">images</a> from the <a href="https://www.rocker-project.org/">rocker project</a>; they can help you create a Docker container with R, RStudio, and all the packages you need – quickly. You can run such a complete container even offline, and from a host computer that lacks R and RStudio.</p>
 <p>You may struggle to understand, install, or use Docker; I did. It can be particularly challenging on Windows. Keep pushing. To create the portable and reproducible R environment I describe here, what you need to learn of Docker is only a little. It’s worthwhile.</p>
 <h2 id="can-you-build-packages-from-source">Can you build packages from source?</h2>
 <p>Developers create R packages as a bunch human-oriented text-files and folders. But installed packages are a little different, and the source code needs to be transformed before your computer can use it. That transformation may be done by CRAN, before you even get the package. But you can do it too – if your computer is <a href="https://usethis.r-lib.org/articles/articles/usethis-setup.html#prepare-your-system-to-build-packages-from-source">prepared to build R packages</a>; you can check that with</p>
@@ -2353,10 +2353,10 @@ pkgbuild::check_build_tools()
 <p>If your system is ready to build packages you have a couple of options. You can use <a href="https://CRAN.R-project.org/package=miniCRAN">miniCRAN</a> to <a href="https://cran.r-project.org/web/packages/miniCRAN/vignettes/miniCRAN-introduction.html">create a local CRAN repository</a>, including a target package and all its dependencies; later you can use your local repository to build each package with <code>devtools::build()</code> and install it with <code>devtools::install()</code>.</p>
 <p>If you want to share your repository with others, you may use the package <a href="https://CRAN.R-project.org/package=drat">drat</a> to create an online clone and serve it on GitHub pages. Your drat repository will allow other folks to download your selection of R packages, and even use it locally offline – just as you did. Your drat repository would also allow anyone online to install any package directly from it (instead of CRAN or another repository).</p>
 <h2 id="getting-pre-built-packages-to-use-them-in-a-similar-system">Getting pre-built packages to use them in a similar system</h2>
-<p>If your system is not ready to build packages you may <a href="https://usethis.r-lib.org/articles/articles/usethis-setup.html#prepare-your-system-to-build-packages-from-source">install what you need</a>, or get the pre-built version of the packages you need, and later use them in a similar system offline. This is a hack and you should try to avoid it; but if you must do it, you may abuse the package <a href="https://rstudio.github.io/renv/articles/renv.html">renv</a> for this.</p>
-<p>The package <a href="https://rstudio.github.io/renv/articles/renv.html">renv</a> creates a local library of binary packages under your working directory: (1) Create a new RStudio project; (2) initialize renv with <code>renv::init()</code>; and (3) install the packages you need with <code>renv::install()</code>. The installed version of all packages will now be under the directory ./renv/library/. Those packages will likely work on another computer running the same platform, and minor version of R. For example, if you are running Windows 10 and R 3.6.x, the packages should work on another computer running Windows 10 and and 3.6.y but not R 3.5.x. When you want to use one of these hacked packages, you will need to tell <code>library()</code> where to find them via the argument <code>lib.loc</code>:</p>
+<p>If your system is not ready to build packages you may <a href="https://usethis.r-lib.org/articles/articles/usethis-setup.html#prepare-your-system-to-build-packages-from-source">make it so</a>, or get the pre-built version of the packages you need, and later use them in a similar system offline. This is a hack and you should try to avoid it; but if you must do it, you may abuse the package <a href="https://rstudio.github.io/renv/articles/renv.html">renv</a> for this.</p>
+<p>The package <a href="https://rstudio.github.io/renv/articles/renv.html">renv</a> creates a local library of binary packages under your working directory: (1) Create a new RStudio project; (2) initialize renv with <code>renv::init()</code>; and (3) install the packages you need with <code>renv::install()</code>. The installed version of all packages will now be under the directory ./renv/library/. Those packages will likely work on another computer running the same platform and minor version of R. For example, if you are running Windows 10 and R 3.6.x, the packages should work on another computer running Windows 10 and 3.6.y but not R 3.5.x. When you want to use one of the hacked packages, you will need to tell <code>library()</code> where to find them – with the argument <code>lib.loc</code>:</p>
 <ul>
-<li>Extending the default libraries with your hacked packages</li>
+<li>Extend the default libraries to include the hacked packages</li>
 </ul>
 <div class="layout-chunk" data-layout="l-body">
 <pre class="r"><code>
@@ -2364,18 +2364,18 @@ pkgbuild::check_build_tools()
 #&gt; [1] &quot;/home/mauro/R/x86_64-pc-linux-gnu-library/4.0&quot;
 #&gt; [2] &quot;/opt/R/4.0.0/lib/R/library&quot;
 
-libraries &lt;- c(.libPaths(), &quot;path/to/your/hacked/packages&quot;)
-libraries
+all_libraries &lt;- c(.libPaths(), &quot;path/to/your/hacked/packages&quot;)
+all_libraries
 #&gt; [1] &quot;/home/mauro/R/x86_64-pc-linux-gnu-library/4.0&quot;
 #&gt; [2] &quot;/opt/R/4.0.0/lib/R/library&quot;                   
 #&gt; [3] &quot;path/to/your/hacked/packages&quot;</code></pre>
 </div>
 <ul>
-<li>Using packages from all libraries, including your hacked packages</li>
+<li>Use packages from all libraries, including the hacked packages</li>
 </ul>
 <pre class="r"><code>
-library(somepackage, lib.loc = libraries)</code></pre>
-<p>R defaults to look for packages under the paths <code>.libPaths()</code>; but placing your hacked packages there is a bad idea because you may leave your entire R environment in bad shape. Remember: This is a hack and you should try to avoid it.</p>
+library(somepackage, lib.loc = all_libraries)</code></pre>
+<p>R defaults to look for packages under the paths given by <code>.libPaths()</code>; but placing your hacked packages there is a bad idea because you may leave your entire R environment in bad shape. Remember: This is a hack and you should try to avoid it.</p>
 <!--radix_placeholder_article_footer-->
 <div class="article-footer">
   <p class="social_footer">

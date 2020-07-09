@@ -32,7 +32,7 @@ When you can't install R packages from a repository online, what _can_ you do? I
 
 ## Don't do it: Ask IT
 
-Often the reason why can't access online repositories is because your computer is part of a larger network that someone else manages and limits. Find that person and ask them if they can install in your computer the R environment you need. If that isn't possible, keep reading but keep in mind that the solutions I describe may take some time and effort; and any hack may leave your system in bad shape. Even if you have to face red tape or wait some time, it may be best to find the right person for this job.
+Often the reason why you can't access online repositories is because your computer is part of a larger network that someone else manages and limits. Find that person and ask them if they can install in your computer the R environment you need. If that isn't possible, keep reading but keep in mind that the solutions I describe may take some time and effort; and any hack may leave your system in bad shape. Even if you have to face red tape or wait some time, it may be best to find the right person for this job.
 
 ## Don't do it: Can you get away with rstudio.cloud?
 
@@ -40,7 +40,7 @@ Before you bother installing anything, you may want to first try the packages yo
 
 ## Docker
 
-[Docker](https://docs.docker.com/) allows you to build a mini "guest" computer -- called "container" -- and run it from any "host" computer. With Docker you can create the R environment you want, including a specific version of R and R packages. Explore the useful Docker [images](https://hub.docker.com/u/rocker/) from the [rocker project](https://www.rocker-project.org/); they can help you create a Docker container with R, RStudio, and all the packages you need -- quickly. You can run such a complete container even offline, and from a host computer that lack R and RStudio.
+[Docker](https://docs.docker.com/) allows you to build a mini "guest" computer -- called "container" -- and run it from any "host" computer. With Docker you can create the R environment you want, including a specific version of R and R packages. Explore the useful Docker [images](https://hub.docker.com/u/rocker/) from the [rocker project](https://www.rocker-project.org/); they can help you create a Docker container with R, RStudio, and all the packages you need -- quickly. You can run such a complete container even offline, and from a host computer that lacks R and RStudio.
 
 You may struggle to understand, install, or use Docker; I did. It can be particularly challenging on Windows. Keep pushing. To create the portable and reproducible R environment I describe here, what you need to learn of Docker is only a little. It's worthwhile.
 
@@ -62,23 +62,23 @@ If you want to share your repository with others, you may use the package [drat]
 
 ## Getting pre-built packages to use them in a similar system
 
-If your system is not ready to build packages you may [install what you need](https://usethis.r-lib.org/articles/articles/usethis-setup.html#prepare-your-system-to-build-packages-from-source), or get the pre-built version of the packages you need, and later use them in a similar system offline. This is a hack and you should try to avoid it; but if you must do it, you may abuse the package [renv](https://rstudio.github.io/renv/articles/renv.html) for this.
+If your system is not ready to build packages you may [make it so](https://usethis.r-lib.org/articles/articles/usethis-setup.html#prepare-your-system-to-build-packages-from-source), or get the pre-built version of the packages you need, and later use them in a similar system offline. This is a hack and you should try to avoid it; but if you must do it, you may abuse the package [renv](https://rstudio.github.io/renv/articles/renv.html) for this.
 
-The package [renv](https://rstudio.github.io/renv/articles/renv.html) creates a local library of binary packages under your working directory: (1) Create a new RStudio project; (2) initialize renv with `renv::init()`; and (3) install the packages you need with `renv::install()`. The installed version of all packages will now be under the directory ./renv/library/. Those packages will likely work on another computer running the same platform, and minor version of R. For example, if you are running Windows 10 and R 3.6.x, the packages should work on another computer running Windows 10 and and 3.6.y but not R 3.5.x. When you want to use one of these hacked packages, you will need to tell `library()` where to find them via the argument `lib.loc`:
+The package [renv](https://rstudio.github.io/renv/articles/renv.html) creates a local library of binary packages under your working directory: (1) Create a new RStudio project; (2) initialize renv with `renv::init()`; and (3) install the packages you need with `renv::install()`. The installed version of all packages will now be under the directory ./renv/library/. Those packages will likely work on another computer running the same platform and minor version of R. For example, if you are running Windows 10 and R 3.6.x, the packages should work on another computer running Windows 10 and 3.6.y but not R 3.5.x. When you want to use one of the hacked packages, you will need to tell `library()` where to find them -- with the argument `lib.loc`:
 
-* Extending the default libraries with your hacked packages
+* Extend the default libraries to include the hacked packages
 
 ```{r}
 .libPaths()
 
-libraries <- c(.libPaths(), "path/to/your/hacked/packages")
-libraries
+all_libraries <- c(.libPaths(), "path/to/your/hacked/packages")
+all_libraries
 ```
 
-* Using packages from all libraries, including your hacked packages
+* Use packages from all libraries, including the hacked packages
 
 ```r
-library(somepackage, lib.loc = libraries)
+library(somepackage, lib.loc = all_libraries)
 ```
 
-R defaults to look for packages under the paths `.libPaths()`; but placing your hacked packages there is a bad idea because you may leave your entire R environment in bad shape. Remember: This is a hack and you should try to avoid it.
+R defaults to look for packages under the paths given by `.libPaths()`; but placing your hacked packages there is a bad idea because you may leave your entire R environment in bad shape. Remember: This is a hack and you should try to avoid it.
