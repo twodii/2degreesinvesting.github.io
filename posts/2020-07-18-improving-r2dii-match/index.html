@@ -2378,27 +2378,27 @@ benchmark &lt;- bench::mark(
   check = FALSE,
   iterations = 5,
   out_devel = out_devel &lt;- devel(loanbook_demo, ald_demo),
-  out_cran  = out_cran  &lt;-  cran(loanbook_demo, ald_demo)
+  out_cran = out_cran &lt;- cran(loanbook_demo, ald_demo)
 )
 
 benchmark
 #&gt; # A tibble: 2 x 6
 #&gt;   expression      min   median `itr/sec` mem_alloc `gc/sec`
 #&gt;   &lt;bch:expr&gt; &lt;bch:tm&gt; &lt;bch:tm&gt;     &lt;dbl&gt; &lt;bch:byt&gt;    &lt;dbl&gt;
-#&gt; 1 out_devel  162.13ms 188.15ms     4.74         NA    13.3 
-#&gt; 2 out_cran      1.15s    1.17s     0.794        NA     7.94
+#&gt; 1 out_devel  156.71ms 168.54ms     4.89         NA    13.7 
+#&gt; 2 out_cran      1.14s    1.17s     0.795        NA     7.95
 
 benchmark %&gt;%
   summarise(
     # How many times less memory uses the version in development?^[2]
-    times_less_memory  = as.double(mem_alloc)[[2]]  / as.double(mem_alloc)[[1]],
+    times_less_memory = as.double(mem_alloc)[[2]] / as.double(mem_alloc)[[1]],
     # How many times faster is the version in development?
-    times_less_time    = as.double(total_time)[[2]] / as.double(total_time)[[1]]
+    times_less_time = as.double(median)[[2]] / as.double(median)[[1]]
   )
 #&gt; # A tibble: 1 x 2
 #&gt;   times_less_memory times_less_time
 #&gt;               &lt;dbl&gt;           &lt;dbl&gt;
-#&gt; 1                NA            5.97</code></pre>
+#&gt; 1                NA            6.94</code></pre>
 </div>
 <ul>
 <li><code>[1]</code>: If we reorder the rows in the same way, both outputs are equivalent.</li>
@@ -2408,11 +2408,11 @@ benchmark %&gt;%
 # No output means that the two expressions are indeed equivalent
 testthat::expect_equivalent(
   out_devel %&gt;% arrange(across(names(.))),
-  out_cran  %&gt;% arrange(across(names(.)))
+  out_cran %&gt;% arrange(across(names(.)))
 )</code></pre>
 </div>
 <ul>
-<li><code>[2]</code>: In RMarkdown I fail to get a result for <code>times_less_memory</code>. But in the console I get <code>times_less_memory</code> of up to 5.5.</li>
+<li><code>[2]</code>: In RMarkdown I fail to get a result for <code>times_less_memory</code>. But in the console I get <code>times_less_memory</code> around 5.5.</li>
 </ul>
 <p>Thanks to your feedback, <code>match_name()</code> is becoming more efficient. We expect to release the improved version on CRAN soon.</p>
 <!--radix_placeholder_article_footer-->

@@ -29,10 +29,10 @@ However you use `match_name()`, it should use as little time and memory as it is
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(
-  echo = TRUE, 
-  comment = "#>", 
-  collapse = TRUE, 
-  # Benchmark each run 
+  echo = TRUE,
+  comment = "#>",
+  collapse = TRUE,
+  # Benchmark each run
   cache = FALSE
 )
 ```
@@ -77,7 +77,7 @@ benchmark <- bench::mark(
   check = FALSE,
   iterations = 5,
   out_devel = out_devel <- devel(loanbook_demo, ald_demo),
-  out_cran  = out_cran  <-  cran(loanbook_demo, ald_demo)
+  out_cran = out_cran <- cran(loanbook_demo, ald_demo)
 )
 
 benchmark
@@ -85,9 +85,9 @@ benchmark
 benchmark %>%
   summarise(
     # How many times less memory uses the version in development?^[2]
-    times_less_memory  = as.double(mem_alloc)[[2]]  / as.double(mem_alloc)[[1]],
+    times_less_memory = as.double(mem_alloc)[[2]] / as.double(mem_alloc)[[1]],
     # How many times faster is the version in development?
-    times_less_time    = as.double(total_time)[[2]] / as.double(total_time)[[1]]
+    times_less_time = as.double(median)[[2]] / as.double(median)[[1]]
   )
 ```
 
@@ -97,10 +97,10 @@ benchmark %>%
 # No output means that the two expressions are indeed equivalent
 testthat::expect_equivalent(
   out_devel %>% arrange(across(names(.))),
-  out_cran  %>% arrange(across(names(.)))
+  out_cran %>% arrange(across(names(.)))
 )
 ```
 
-* `[2]`: In RMarkdown I fail to get a result for `times_less_memory`. But in the console I get `times_less_memory` of up to 5.5.
+* `[2]`: In RMarkdown I fail to get a result for `times_less_memory`. But in the console I get `times_less_memory` around 5.5.
 
 Thanks to your feedback, `match_name()` is becoming more efficient. We expect to release the improved version on CRAN soon.
