@@ -76,8 +76,8 @@ benchmark <- bench::mark(
   # Don't check that the output is identical; rows-order is different^[1]
   check = FALSE,
   iterations = 5,
-  out_devel = out_devel <- devel(loanbook_demo, ald_demo),
-  out_cran = out_cran <- cran(loanbook_demo, ald_demo)
+  matched_devel = matched_devel <- devel(loanbook_demo, ald_demo),
+  matched_cran = matched_cran <- cran(loanbook_demo, ald_demo)
 )
 
 benchmark
@@ -96,8 +96,8 @@ benchmark %>%
 ```{r}
 # No output means that the two expressions are indeed equivalent
 testthat::expect_equivalent(
-  out_devel %>% arrange(across(names(.))),
-  out_cran %>% arrange(across(names(.)))
+  matched_devel %>% arrange(across(names(.))),
+  matched_cran %>% arrange(across(names(.)))
 )
 ```
 

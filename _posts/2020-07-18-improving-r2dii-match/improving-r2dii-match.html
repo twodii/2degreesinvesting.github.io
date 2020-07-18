@@ -2007,16 +2007,16 @@ benchmark &lt;- bench::mark(
   # Don&#39;t check that the output is identical; rows-order is different^[1]
   check = FALSE,
   iterations = 5,
-  out_devel = out_devel &lt;- devel(loanbook_demo, ald_demo),
-  out_cran = out_cran &lt;- cran(loanbook_demo, ald_demo)
+  matched_devel = matched_devel &lt;- devel(loanbook_demo, ald_demo),
+  matched_cran = matched_cran &lt;- cran(loanbook_demo, ald_demo)
 )
 
 benchmark
 #&gt; # A tibble: 2 x 6
-#&gt;   expression      min   median `itr/sec` mem_alloc `gc/sec`
-#&gt;   &lt;bch:expr&gt; &lt;bch:tm&gt; &lt;bch:tm&gt;     &lt;dbl&gt; &lt;bch:byt&gt;    &lt;dbl&gt;
-#&gt; 1 out_devel  156.71ms 168.54ms     4.89         NA    13.7 
-#&gt; 2 out_cran      1.14s    1.17s     0.795        NA     7.95
+#&gt;   expression         min   median `itr/sec` mem_alloc `gc/sec`
+#&gt;   &lt;bch:expr&gt;    &lt;bch:tm&gt; &lt;bch:tm&gt;     &lt;dbl&gt; &lt;bch:byt&gt;    &lt;dbl&gt;
+#&gt; 1 matched_devel 161.25ms 179.57ms     4.92         NA    13.8 
+#&gt; 2 matched_cran     1.12s    1.18s     0.756        NA     7.56
 
 benchmark %&gt;%
   summarise(
@@ -2028,7 +2028,7 @@ benchmark %&gt;%
 #&gt; # A tibble: 1 x 2
 #&gt;   times_less_memory times_less_time
 #&gt;               &lt;dbl&gt;           &lt;dbl&gt;
-#&gt; 1                NA            6.94</code></pre>
+#&gt; 1                NA            6.55</code></pre>
 </div>
 <ul>
 <li><code>[1]</code>: If we reorder the rows in the same way, both outputs are equivalent.</li>
@@ -2037,8 +2037,8 @@ benchmark %&gt;%
 <pre class="r"><code>
 # No output means that the two expressions are indeed equivalent
 testthat::expect_equivalent(
-  out_devel %&gt;% arrange(across(names(.))),
-  out_cran %&gt;% arrange(across(names(.)))
+  matched_devel %&gt;% arrange(across(names(.))),
+  matched_cran %&gt;% arrange(across(names(.)))
 )</code></pre>
 </div>
 <ul>
