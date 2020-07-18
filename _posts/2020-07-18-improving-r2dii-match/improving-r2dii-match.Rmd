@@ -1,0 +1,106 @@
+---
+title: "Improving r2dii.match"
+description: |
+  How to work with big data, and benchmarks of a more efficient version of `match_name()`
+author:
+  - name: Mauro Lepore
+    url: https://github.com/maurolepore
+date: 07-18-2020
+output: 
+  distill::distill_article:
+  toc: true
+  toc_depth: 3
+  self_contained: true
+categories:
+  - r2dii
+  - package
+preview: preview.jpg
+twitter:
+  site: "@mauro_lepore"
+  creator: "@mauro_lepore"
+---
+
+[`match_name()`](https://2degreesinvesting.github.io/r2dii.match/reference/match_name.html) may [run out of memory if your data is too big](https://github.com/2DegreesInvesting/r2dii.match/issues/214). However efficient, most software for data analysis has a limit to how much data it can handle with a given hardware. If your data is too big to run `match_name()` on your computer, consider using only a representative subset of data or a more powerful computer: For example, you may feed `match_name()` with data of only one sector (see [`filter()`](https://dplyr.tidyverse.org/reference/filter.html)), or with a small sample taken at random from all sectors (see [`slice_sample()`](https://dplyr.tidyverse.org/reference/slice.html));
+alternatively, you may use the full dataset but run `match_name()` on a powerful [computer on the cloud](https://en.wikipedia.org/wiki/Cloud_computing#:~:text=Cloud%20computing%20is%20the%20on,many%20users%20over%20the%20Internet.). For more details, watch RStudio's webinar on [Working with Big Data in R](https://dplyr.tidyverse.org/reference/filter.html). 
+
+However you use `match_name()`, it should use as little time and memory as it is reasonably possible. That is our goal. Here I compare two versions of `match_name()`: the version in development versus the version on CRAN (r2dii.match 0.0.3). Compared to the version on CRAN, the version in development uses a small fraction of the time and memory. This post shows the details.
+
+***
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE, 
+  comment = "#>", 
+  collapse = TRUE, 
+  # Benchmark each run 
+  cache = FALSE
+)
+```
+
+Packages.
+
+```{r message=FALSE, warning=FALSE}
+library(bench)
+library(devtools)
+library(dplyr)
+library(fs)
+library(r2dii.data)
+```
+
+I'll use the names _devel_ and _cran_ to refer to the versions of `match_name()` that are, respectively, _in development_ and _on CRAN_ (r2dii.match 0.0.3).
+
+```{r}
+# The older version on CRAN
+packageVersion("r2dii.match")
+# Copy of match_name on CRAN
+cran <- r2dii.match::match_name
+
+# The newer version in development
+suppressMessages(devtools::load_all(fs::path_home("git", "r2dii.match")))
+packageVersion("r2dii.match")
+# Copy of match_name in development
+devel <- r2dii.match::match_name
+```
+
+Both versions have different source code.
+
+```{r}
+# Confirm the two versions of `match_name` are different
+identical(devel, cran)
+```
+
+The version in development uses less memory and runs faster.
+
+```{r}
+benchmark <- bench::mark(
+  # Don't check that the output is identical; rows-order is different^[1]
+  check = FALSE,
+  iterations = 5,
+  out_devel = out_devel <- devel(loanbook_demo, ald_demo),
+  out_cran  = out_cran  <-  cran(loanbook_demo, ald_demo)
+)
+
+benchmark
+
+benchmark %>%
+  summarise(
+    # How many times less memory uses the version in development?^[2]
+    times_less_memory  = as.double(mem_alloc)[[2]]  / as.double(mem_alloc)[[1]],
+    # How many times faster is the version in development?
+    times_less_time    = as.double(total_time)[[2]] / as.double(total_time)[[1]]
+  )
+```
+
+* `[1]`: If we reorder the rows in the same way, both outputs are equivalent.
+
+```{r}
+# No output means that the two expressions are indeed equivalent
+testthat::expect_equivalent(
+  out_devel %>% arrange(across(names(.))),
+  out_cran  %>% arrange(across(names(.)))
+)
+```
+
+* `[2]`: In RMarkdown I fail to get a result for `times_less_memory`. But in the console I get `times_less_memory` of up to 5.5.
+
+Thanks to your feedback, `match_name()` is becoming more efficient. We expect to release the improved version on CRAN soon.

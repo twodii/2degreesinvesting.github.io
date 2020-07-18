@@ -1,5 +1,24 @@
 [
   {
+    "path": "posts/2020-07-18-improving-r2dii-match/",
+    "title": "Improving r2dii.match",
+    "description": "How to work with big data, and benchmarks of a more efficient version of `match_name()`",
+    "author": [
+      {
+        "name": "Mauro Lepore",
+        "url": "https://github.com/maurolepore"
+      }
+    ],
+    "date": "2020-07-18",
+    "categories": [
+      "r2dii",
+      "package"
+    ],
+    "preview": "posts/2020-07-18-improving-r2dii-match/preview.jpg",
+    "last_modified": "2020-07-18T14:40:36-05:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2020-07-08-installing-packages-without-internet/",
     "title": "Installing R packages when you are offline",
     "description": "Some options and hacks",
