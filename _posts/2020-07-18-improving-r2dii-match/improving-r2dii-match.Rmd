@@ -20,10 +20,10 @@ twitter:
   creator: "@mauro_lepore"
 ---
 
-[`match_name()`](https://2degreesinvesting.github.io/r2dii.match/reference/match_name.html) may [run out of memory if your data is too big](https://github.com/2DegreesInvesting/r2dii.match/issues/214). However efficient, most software for data analysis has a limit to how much data it can handle with a given hardware. If your data is too big to run `match_name()` on your computer, consider using only a representative subset of data or a more powerful computer: For example, you may feed `match_name()` with data of only one sector (see [`filter()`](https://dplyr.tidyverse.org/reference/filter.html)), or with a small sample taken at random from all sectors (see [`slice_sample()`](https://dplyr.tidyverse.org/reference/slice.html));
-alternatively, you may use the full dataset but run `match_name()` on a powerful [computer on the cloud](https://en.wikipedia.org/wiki/Cloud_computing#:~:text=Cloud%20computing%20is%20the%20on,many%20users%20over%20the%20Internet.). For more details, watch RStudio's webinar on [Working with Big Data in R](https://dplyr.tidyverse.org/reference/filter.html). 
+[`match_name()`](https://2degreesinvesting.github.io/r2dii.match/reference/match_name.html) may [run out of memory if your data is too big](https://github.com/2DegreesInvesting/r2dii.match/issues/214). Most software for data analysis has a limit to how much data it can handle with a given hardware. If your data is too big to run `match_name()` on your computer, consider using only a representative subset of data or a more powerful computer: For example, you may feed `match_name()` with data of only one sector (see [`filter()`](https://dplyr.tidyverse.org/reference/filter.html)), or with a small sample taken at random from all sectors (see [`slice_sample()`](https://dplyr.tidyverse.org/reference/slice.html));
+alternatively, you may use the full dataset but run `match_name()` on a powerful [computer on the cloud](https://en.wikipedia.org/wiki/Cloud_computing#:~:text=Cloud%20computing%20is%20the%20on,many%20users%20over%20the%20Internet.). For more details, watch RStudio's webinar on [Working with Big Data in R](https://rstudio.com/resources/webinars/working-with-big-data-in-r/). 
 
-However you use `match_name()`, it should use as little time and memory as it is reasonably possible. That is our goal. Here I compare two versions of `match_name()`: the version in development versus the version on CRAN (r2dii.match 0.0.3). Compared to the version on CRAN, the version in development uses a small fraction of the time and memory. This post shows the details.
+However you use `match_name()`, it should use as little time and memory as it is reasonably possible. That is our goal. Here I compare two versions of `match_name()`: the version in development versus the version on CRAN (r2dii.match 0.0.3). Compared to the version on CRAN, the version in development uses a small fraction of the time and memory. The rest of this post shows the benchmarks.
 
 ***
 
@@ -37,7 +37,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-Packages.
+Packages:
 
 ```{r message=FALSE, warning=FALSE}
 library(bench)
@@ -62,14 +62,14 @@ packageVersion("r2dii.match")
 devel <- r2dii.match::match_name
 ```
 
-Both versions have different source code.
+Both versions have different source code:
 
 ```{r}
 # Confirm the two versions of `match_name` are different
 identical(devel, cran)
 ```
 
-The version in development uses less memory and runs faster.
+The version in development uses less memory and runs faster:
 
 ```{r}
 benchmark <- bench::mark(

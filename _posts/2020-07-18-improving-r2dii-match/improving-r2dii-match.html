@@ -1965,10 +1965,10 @@ distill-header .nav a {
 </div>
 
 <div class="d-article">
-<p><a href="https://2degreesinvesting.github.io/r2dii.match/reference/match_name.html"><code>match_name()</code></a> may <a href="https://github.com/2DegreesInvesting/r2dii.match/issues/214">run out of memory if your data is too big</a>. However efficient, most software for data analysis has a limit to how much data it can handle with a given hardware. If your data is too big to run <code>match_name()</code> on your computer, consider using only a representative subset of data or a more powerful computer: For example, you may feed <code>match_name()</code> with data of only one sector (see <a href="https://dplyr.tidyverse.org/reference/filter.html"><code>filter()</code></a>), or with a small sample taken at random from all sectors (see <a href="https://dplyr.tidyverse.org/reference/slice.html"><code>slice_sample()</code></a>); alternatively, you may use the full dataset but run <code>match_name()</code> on a powerful <a href="https://en.wikipedia.org/wiki/Cloud_computing#:~:text=Cloud%20computing%20is%20the%20on,many%20users%20over%20the%20Internet.">computer on the cloud</a>. For more details, watch RStudio’s webinar on <a href="https://dplyr.tidyverse.org/reference/filter.html">Working with Big Data in R</a>.</p>
-<p>However you use <code>match_name()</code>, it should use as little time and memory as it is reasonably possible. That is our goal. Here I compare two versions of <code>match_name()</code>: the version in development versus the version on CRAN (r2dii.match 0.0.3). Compared to the version on CRAN, the version in development uses a small fraction of the time and memory. This post shows the details.</p>
+<p><a href="https://2degreesinvesting.github.io/r2dii.match/reference/match_name.html"><code>match_name()</code></a> may <a href="https://github.com/2DegreesInvesting/r2dii.match/issues/214">run out of memory if your data is too big</a>. Most software for data analysis has a limit to how much data it can handle with a given hardware. If your data is too big to run <code>match_name()</code> on your computer, consider using only a representative subset of data or a more powerful computer: For example, you may feed <code>match_name()</code> with data of only one sector (see <a href="https://dplyr.tidyverse.org/reference/filter.html"><code>filter()</code></a>), or with a small sample taken at random from all sectors (see <a href="https://dplyr.tidyverse.org/reference/slice.html"><code>slice_sample()</code></a>); alternatively, you may use the full dataset but run <code>match_name()</code> on a powerful <a href="https://en.wikipedia.org/wiki/Cloud_computing#:~:text=Cloud%20computing%20is%20the%20on,many%20users%20over%20the%20Internet.">computer on the cloud</a>. For more details, watch RStudio’s webinar on <a href="https://rstudio.com/resources/webinars/working-with-big-data-in-r/">Working with Big Data in R</a>.</p>
+<p>However you use <code>match_name()</code>, it should use as little time and memory as it is reasonably possible. That is our goal. Here I compare two versions of <code>match_name()</code>: the version in development versus the version on CRAN (r2dii.match 0.0.3). Compared to the version on CRAN, the version in development uses a small fraction of the time and memory. The rest of this post shows the benchmarks.</p>
 <hr />
-<p>Packages.</p>
+<p>Packages:</p>
 <div class="layout-chunk" data-layout="l-body">
 <pre class="r"><code>
 library(bench)
@@ -1993,14 +1993,14 @@ packageVersion(&quot;r2dii.match&quot;)
 # Copy of match_name in development
 devel &lt;- r2dii.match::match_name</code></pre>
 </div>
-<p>Both versions have different source code.</p>
+<p>Both versions have different source code:</p>
 <div class="layout-chunk" data-layout="l-body">
 <pre class="r"><code>
 # Confirm the two versions of `match_name` are different
 identical(devel, cran)
 #&gt; [1] FALSE</code></pre>
 </div>
-<p>The version in development uses less memory and runs faster.</p>
+<p>The version in development uses less memory and runs faster:</p>
 <div class="layout-chunk" data-layout="l-body">
 <pre class="r"><code>
 benchmark &lt;- bench::mark(
@@ -2015,8 +2015,8 @@ benchmark
 #&gt; # A tibble: 2 x 6
 #&gt;   expression         min   median `itr/sec` mem_alloc `gc/sec`
 #&gt;   &lt;bch:expr&gt;    &lt;bch:tm&gt; &lt;bch:tm&gt;     &lt;dbl&gt; &lt;bch:byt&gt;    &lt;dbl&gt;
-#&gt; 1 matched_devel 161.25ms 179.57ms     4.92         NA    13.8 
-#&gt; 2 matched_cran     1.12s    1.18s     0.756        NA     7.56
+#&gt; 1 matched_devel 157.83ms 167.68ms     4.83         NA    13.5 
+#&gt; 2 matched_cran     1.12s    1.15s     0.813        NA     8.13
 
 benchmark %&gt;%
   summarise(
@@ -2028,7 +2028,7 @@ benchmark %&gt;%
 #&gt; # A tibble: 1 x 2
 #&gt;   times_less_memory times_less_time
 #&gt;               &lt;dbl&gt;           &lt;dbl&gt;
-#&gt; 1                NA            6.55</code></pre>
+#&gt; 1                NA            6.83</code></pre>
 </div>
 <ul>
 <li><code>[1]</code>: If we reorder the rows in the same way, both outputs are equivalent.</li>
