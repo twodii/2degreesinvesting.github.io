@@ -33,7 +33,7 @@ knitr::opts_chunk$set(
   comment = "#>",
   collapse = TRUE,
   # Benchmark each run
-  cache = FALSE
+  cache = TRUE
 )
 ```
 
@@ -70,33 +70,25 @@ Both versions have different source code:
 identical(devel, cran)
 ```
 
-Compared to the version on CRAN, the version in development takes less time. It calls the expensive garbage collector fewer times, and at a more economic level.
+Compared to the version on CRAN, the version in development takes less time. It calls the expensive garbage collector fewer times, and at a more economic level. (I use `check = FALSE` because the output is not identical -- the two outputs differ in the order of their rows; But if we reorder the rows in the same way, both outputs are equivalent.)
 
 ```{r}
 benchmark <- bench::mark(
-  # Don't check that the output is identical; rows-order is different^[1]
   check = FALSE,
   iterations = 30,
   matched_devel = matched_devel <- devel(loanbook_demo, ald_demo),
   matched_cran = matched_cran <- cran(loanbook_demo, ald_demo)
 )
 
-benchmark
-
-ggplot2::autoplot(benchmark)
-```
-
-
-* `[1]`: If we reorder the rows in the same way, both outputs are equivalent.
-
-```{r}
 # No output means that the two expressions are indeed equivalent
 testthat::expect_equivalent(
   matched_devel %>% arrange(across(names(.))),
   matched_cran %>% arrange(across(names(.)))
 )
-```
 
-* `[2]`: In RMarkdown I fail to get a result for `times_less_memory`. But in the console I get `times_less_memory` around 5.5.
+benchmark
+
+ggplot2::autoplot(benchmark)
+```
 
 Thanks to your feedback, `match_name()` is becoming more efficient. We expect to release the improved version on CRAN soon.

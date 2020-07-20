@@ -1,0 +1,10 @@
+base
+bench
+usethis
+devtools
+dplyr
+fs
+ggplot2
+r2dii.data
+testthat
+r2dii.match
