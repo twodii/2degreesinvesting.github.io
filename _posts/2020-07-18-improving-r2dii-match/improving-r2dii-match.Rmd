@@ -44,6 +44,7 @@ library(bench)
 library(devtools)
 library(dplyr)
 library(fs)
+library(ggplot2)
 library(r2dii.data)
 ```
 
@@ -69,27 +70,22 @@ Both versions have different source code:
 identical(devel, cran)
 ```
 
-The version in development uses less memory and runs faster:
+Compared to the version on CRAN, the version in development takes less time. It calls the expensive garbage collector fewer times, and at a more economic level.
 
 ```{r}
 benchmark <- bench::mark(
   # Don't check that the output is identical; rows-order is different^[1]
   check = FALSE,
-  iterations = 5,
+  iterations = 30,
   matched_devel = matched_devel <- devel(loanbook_demo, ald_demo),
   matched_cran = matched_cran <- cran(loanbook_demo, ald_demo)
 )
 
 benchmark
 
-benchmark %>%
-  summarise(
-    # How many times less memory uses the version in development?^[2]
-    times_less_memory = as.double(mem_alloc)[[2]] / as.double(mem_alloc)[[1]],
-    # How many times faster is the version in development?
-    times_less_time = as.double(median)[[2]] / as.double(median)[[1]]
-  )
+ggplot2::autoplot(benchmark)
 ```
+
 
 * `[1]`: If we reorder the rows in the same way, both outputs are equivalent.
 
