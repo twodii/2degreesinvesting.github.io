@@ -1,0 +1,92 @@
+---
+title: "Working with big data"
+description: |
+  A short description of the post.
+author:
+  - name: Mauro Lepore
+    url: https://github.com/maurolepore
+date: 07-20-2020
+output: github_document
+  # distill::distill_article:
+  # toc: true
+  # toc_depth: 3
+  # self_contained: true
+categories:
+  - r2dii
+  - package
+preview: preview.jpg
+twitter:
+  site: "@mauro_lepore"
+  creator: "@mauro_lepore"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE,
+  comment = "#>",
+  collapse = TRUE,
+  # Benchmark each run
+  cache = TRUE
+)
+```
+
+Packages:
+
+```{r}
+library(r2dii.data)
+library(r2dii.match)
+library(bench)
+```
+
+## Use less data
+
+One way to save time and memory is to use less data. Even if you downsize your data, you may achieve the exact same result, or achieve a slighly different result that is equally informative.
+
+### Use just the columns you need
+
+Your datasets may have columns `match_name()` doesn't need.
+
+```{r}
+dim(loanbook_demo)
+
+dim(ald_demo)
+```
+
+`match_name()` needs only these columns:
+
+```{r}
+lbk_crucial <- c(
+  "sector_classification_system",
+  "id_ultimate_parent",
+  "name_ultimate_parent",
+  "id_direct_loantaker",
+  "name_direct_loantaker",
+  "sector_classification_direct_loantaker"
+)
+
+ald_crucial <- c("name_company", "sector")
+```
+
+If you pick just what you need, you may be able to work with smaller data.
+
+```{r}
+lbk <- loanbook_demo[lbk_crucial]
+dim(lbk)
+
+ald <- ald_demo[ald_crucial]
+dim(ald)
+```
+
+These can use less time and memory:
+
+```{r}
+benchmark <- bench::mark(
+  check = FALSE,
+  iterations = 30,
+  full_columns = match_name(loanbook_demo, ald_demo),
+  used_columns = match_name(lbk, ald)
+)
+
+ggplot2::autoplot(benchmark)
+```
+
