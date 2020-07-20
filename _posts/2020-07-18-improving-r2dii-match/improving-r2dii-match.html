@@ -2001,7 +2001,7 @@ devel &lt;- r2dii.match::match_name</code></pre>
 identical(devel, cran)
 #&gt; [1] FALSE</code></pre>
 </div>
-<p>Compared to the version on CRAN, the version in development takes less time. It calls the expensive garbage collector fewer times, and at a more economic level. (I use <code>check = FALSE</code> because the output is not identical – the two outputs differ in the order of their rows; But if we reorder the rows in the same way, both outputs are equivalent.)</p>
+<p>Compared to the version on CRAN, the version in development takes less time. It calls the expensive garbage collector fewer times, and at a more economic level. (I use <code>check = FALSE</code> because the output is not identical; the two outputs differ in the order of their rows, but if we reorder the rows in the same way, both outputs are equivalent.)</p>
 <div class="layout-chunk" data-layout="l-body">
 <pre class="r"><code>
 benchmark &lt;- bench::mark(

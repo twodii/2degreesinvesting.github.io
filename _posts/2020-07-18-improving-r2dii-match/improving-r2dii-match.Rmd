@@ -70,7 +70,7 @@ Both versions have different source code:
 identical(devel, cran)
 ```
 
-Compared to the version on CRAN, the version in development takes less time. It calls the expensive garbage collector fewer times, and at a more economic level. (I use `check = FALSE` because the output is not identical -- the two outputs differ in the order of their rows; But if we reorder the rows in the same way, both outputs are equivalent.)
+Compared to the version on CRAN, the version in development takes less time. It calls the expensive garbage collector fewer times, and at a more economic level. (I use `check = FALSE` because the output is not identical; the two outputs differ in the order of their rows, but if we reorder the rows in the same way, both outputs are equivalent.)
 
 ```{r}
 benchmark <- bench::mark(
