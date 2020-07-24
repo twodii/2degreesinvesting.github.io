@@ -1,0 +1,424 @@
+scenario_source,scenario,sector,region,year,emission_factor_unit,emission_factor
+etp_2017,b2ds,steel,global,2014,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.807598461309858
+etp_2017,b2ds,steel,global,2015,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.7458845006452073
+etp_2017,b2ds,steel,global,2016,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.6841705399805567
+etp_2017,b2ds,steel,global,2017,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.622456579315906
+etp_2017,b2ds,steel,global,2018,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.5607426186512552
+etp_2017,b2ds,steel,global,2019,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.4990286579866046
+etp_2017,b2ds,steel,global,2020,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.437314697321954
+etp_2017,b2ds,steel,global,2021,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.3756007366573033
+etp_2017,b2ds,steel,global,2022,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.3138867759926525
+etp_2017,b2ds,steel,global,2023,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.2521728153280018
+etp_2017,b2ds,steel,global,2024,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.1904588546633512
+etp_2017,b2ds,steel,global,2025,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.1287448939987006
+etp_2017,b2ds,steel,global,2026,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.0779037625720316
+etp_2017,b2ds,steel,global,2027,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.0270626311453623
+etp_2017,b2ds,steel,global,2028,tonnes CO2 (scope 1 & 2) per tonnes crude steel,0.9762214997186933
+etp_2017,b2ds,steel,global,2029,tonnes CO2 (scope 1 & 2) per tonnes crude steel,0.9253803682920243
+etp_2017,b2ds,steel,global,2030,tonnes CO2 (scope 1 & 2) per tonnes crude steel,0.8745392368653552
+etp_2017,b2ds,steel,global,2031,tonnes CO2 (scope 1 & 2) per tonnes crude steel,0.826392014662042
+etp_2017,b2ds,steel,global,2032,tonnes CO2 (scope 1 & 2) per tonnes crude steel,0.778244792458729
+etp_2017,b2ds,steel,global,2033,tonnes CO2 (scope 1 & 2) per tonnes crude steel,0.7300975702554159
+etp_2017,b2ds,steel,global,2034,tonnes CO2 (scope 1 & 2) per tonnes crude steel,0.6819503480521028
+etp_2017,b2ds,steel,global,2035,tonnes CO2 (scope 1 & 2) per tonnes crude steel,0.6338031258487897
+etp_2017,b2ds,steel,global,2036,tonnes CO2 (scope 1 & 2) per tonnes crude steel,0.6063298648626001
+etp_2017,b2ds,steel,global,2037,tonnes CO2 (scope 1 & 2) per tonnes crude steel,0.5788566038764105
+etp_2017,b2ds,steel,global,2038,tonnes CO2 (scope 1 & 2) per tonnes crude steel,0.5513833428902208
+etp_2017,b2ds,steel,global,2039,tonnes CO2 (scope 1 & 2) per tonnes crude steel,0.5239100819040312
+etp_2017,b2ds,steel,global,2040,tonnes CO2 (scope 1 & 2) per tonnes crude steel,0.4964368209178416
+etp_2017,b2ds,steel,global,2041,tonnes CO2 (scope 1 & 2) per tonnes crude steel,0.473189703113288
+etp_2017,b2ds,steel,global,2042,tonnes CO2 (scope 1 & 2) per tonnes crude steel,0.44994258530873443
+etp_2017,b2ds,steel,global,2043,tonnes CO2 (scope 1 & 2) per tonnes crude steel,0.42669546750418086
+etp_2017,b2ds,steel,global,2044,tonnes CO2 (scope 1 & 2) per tonnes crude steel,0.40344834969962723
+etp_2017,b2ds,steel,global,2045,tonnes CO2 (scope 1 & 2) per tonnes crude steel,0.38020123189507365
+etp_2017,b2ds,steel,global,2046,tonnes CO2 (scope 1 & 2) per tonnes crude steel,0.35627118494966925
+etp_2017,b2ds,steel,global,2047,tonnes CO2 (scope 1 & 2) per tonnes crude steel,0.33234113800426485
+etp_2017,b2ds,steel,global,2048,tonnes CO2 (scope 1 & 2) per tonnes crude steel,0.30841109105886044
+etp_2017,b2ds,steel,global,2049,tonnes CO2 (scope 1 & 2) per tonnes crude steel,0.28448104411345604
+etp_2017,b2ds,steel,global,2050,tonnes CO2 (scope 1 & 2) per tonnes crude steel,0.26055099716805163
+etp_2017,b2ds,steel,global,2051,tonnes CO2 (scope 1 & 2) per tonnes crude steel,0.2458533877269055
+etp_2017,b2ds,steel,global,2052,tonnes CO2 (scope 1 & 2) per tonnes crude steel,0.23115577828575934
+etp_2017,b2ds,steel,global,2053,tonnes CO2 (scope 1 & 2) per tonnes crude steel,0.21645816884461322
+etp_2017,b2ds,steel,global,2054,tonnes CO2 (scope 1 & 2) per tonnes crude steel,0.20176055940346707
+etp_2017,b2ds,steel,global,2055,tonnes CO2 (scope 1 & 2) per tonnes crude steel,0.18706294996232092
+etp_2017,b2ds,steel,global,2056,tonnes CO2 (scope 1 & 2) per tonnes crude steel,0.16710805282401245
+etp_2017,b2ds,steel,global,2057,tonnes CO2 (scope 1 & 2) per tonnes crude steel,0.14715315568570397
+etp_2017,b2ds,steel,global,2058,tonnes CO2 (scope 1 & 2) per tonnes crude steel,0.12719825854739553
+etp_2017,b2ds,steel,global,2059,tonnes CO2 (scope 1 & 2) per tonnes crude steel,0.10724336140908705
+etp_2017,b2ds,steel,global,2060,tonnes CO2 (scope 1 & 2) per tonnes crude steel,0.08728846427077859
+etp_2017,rts,steel,global,2014,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.807598461309858
+etp_2017,rts,steel,global,2015,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.804556986759665
+etp_2017,rts,steel,global,2016,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.801515512209472
+etp_2017,rts,steel,global,2017,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.798474037659279
+etp_2017,rts,steel,global,2018,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.795432563109086
+etp_2017,rts,steel,global,2019,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.792391088558893
+etp_2017,rts,steel,global,2020,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.7893496140087
+etp_2017,rts,steel,global,2021,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.786308139458507
+etp_2017,rts,steel,global,2022,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.783266664908314
+etp_2017,rts,steel,global,2023,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.780225190358121
+etp_2017,rts,steel,global,2024,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.777183715807928
+etp_2017,rts,steel,global,2025,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.774142241257735
+etp_2017,rts,steel,global,2026,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.7699933479034582
+etp_2017,rts,steel,global,2027,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.7658444545491816
+etp_2017,rts,steel,global,2028,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.7616955611949048
+etp_2017,rts,steel,global,2029,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.7575466678406282
+etp_2017,rts,steel,global,2030,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.7533977744863514
+etp_2017,rts,steel,global,2031,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.757368904173029
+etp_2017,rts,steel,global,2032,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.7613400338597065
+etp_2017,rts,steel,global,2033,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.7653111635463838
+etp_2017,rts,steel,global,2034,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.7692822932330614
+etp_2017,rts,steel,global,2035,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.773253422919739
+etp_2017,rts,steel,global,2036,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.7984103250486105
+etp_2017,rts,steel,global,2037,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.823567227177482
+etp_2017,rts,steel,global,2038,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.8487241293063537
+etp_2017,rts,steel,global,2039,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.8738810314352252
+etp_2017,rts,steel,global,2040,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.8990379335640968
+etp_2017,rts,steel,global,2041,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.8862350439350601
+etp_2017,rts,steel,global,2042,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.8734321543060235
+etp_2017,rts,steel,global,2043,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.8606292646769869
+etp_2017,rts,steel,global,2044,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.8478263750479502
+etp_2017,rts,steel,global,2045,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.8350234854189136
+etp_2017,rts,steel,global,2046,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.8185798354506058
+etp_2017,rts,steel,global,2047,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.802136185482298
+etp_2017,rts,steel,global,2048,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.78569253551399
+etp_2017,rts,steel,global,2049,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.7692488855456823
+etp_2017,rts,steel,global,2050,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.7528052355773744
+etp_2017,rts,steel,global,2051,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.7396277302641292
+etp_2017,rts,steel,global,2052,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.7264502249508842
+etp_2017,rts,steel,global,2053,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.713272719637639
+etp_2017,rts,steel,global,2054,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.700095214324394
+etp_2017,rts,steel,global,2055,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.6869177090111487
+etp_2017,rts,steel,global,2056,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.6709569985581845
+etp_2017,rts,steel,global,2057,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.6549962881052205
+etp_2017,rts,steel,global,2058,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.6390355776522563
+etp_2017,rts,steel,global,2059,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.6230748671992923
+etp_2017,rts,steel,global,2060,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.607114156746328
+etp_2017,sds,steel,global,2014,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.807598461309858
+etp_2017,sds,steel,global,2015,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.776022903748625
+etp_2017,sds,steel,global,2016,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.7444473461873922
+etp_2017,sds,steel,global,2017,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.7128717886261593
+etp_2017,sds,steel,global,2018,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.6812962310649264
+etp_2017,sds,steel,global,2019,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.6497206735036936
+etp_2017,sds,steel,global,2020,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.6181451159424607
+etp_2017,sds,steel,global,2021,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.5865695583812276
+etp_2017,sds,steel,global,2022,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.5549940008199947
+etp_2017,sds,steel,global,2023,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.5234184432587619
+etp_2017,sds,steel,global,2024,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.491842885697529
+etp_2017,sds,steel,global,2025,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.4602673281362961
+etp_2017,sds,steel,global,2026,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.4064595556983628
+etp_2017,sds,steel,global,2027,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.3526517832604295
+etp_2017,sds,steel,global,2028,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.298844010822496
+etp_2017,sds,steel,global,2029,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.2450362383845626
+etp_2017,sds,steel,global,2030,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.1912284659466292
+etp_2017,sds,steel,global,2031,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.1513747702777841
+etp_2017,sds,steel,global,2032,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.1115210746089388
+etp_2017,sds,steel,global,2033,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.0716673789400937
+etp_2017,sds,steel,global,2034,tonnes CO2 (scope 1 & 2) per tonnes crude steel,1.0318136832712486
+etp_2017,sds,steel,global,2035,tonnes CO2 (scope 1 & 2) per tonnes crude steel,0.9919599876024033
+etp_2017,sds,steel,global,2036,tonnes CO2 (scope 1 & 2) per tonnes crude steel,0.9611773743304859
+etp_2017,sds,steel,global,2037,tonnes CO2 (scope 1 & 2) per tonnes crude steel,0.9303947610585686
+etp_2017,sds,steel,global,2038,tonnes CO2 (scope 1 & 2) per tonnes crude steel,0.8996121477866511
+etp_2017,sds,steel,global,2039,tonnes CO2 (scope 1 & 2) per tonnes crude steel,0.8688295345147337
+etp_2017,sds,steel,global,2040,tonnes CO2 (scope 1 & 2) per tonnes crude steel,0.8380469212428163
+etp_2017,sds,steel,global,2041,tonnes CO2 (scope 1 & 2) per tonnes crude steel,0.8087472327937218
+etp_2017,sds,steel,global,2042,tonnes CO2 (scope 1 & 2) per tonnes crude steel,0.7794475443446274
+etp_2017,sds,steel,global,2043,tonnes CO2 (scope 1 & 2) per tonnes crude steel,0.7501478558955329
+etp_2017,sds,steel,global,2044,tonnes CO2 (scope 1 & 2) per tonnes crude steel,0.7208481674464384
+etp_2017,sds,steel,global,2045,tonnes CO2 (scope 1 & 2) per tonnes crude steel,0.691548478997344
+etp_2017,sds,steel,global,2046,tonnes CO2 (scope 1 & 2) per tonnes crude steel,0.6793219852419281
+etp_2017,sds,steel,global,2047,tonnes CO2 (scope 1 & 2) per tonnes crude steel,0.6670954914865123
+etp_2017,sds,steel,global,2048,tonnes CO2 (scope 1 & 2) per tonnes crude steel,0.6548689977310964
+etp_2017,sds,steel,global,2049,tonnes CO2 (scope 1 & 2) per tonnes crude steel,0.6426425039756806
+etp_2017,sds,steel,global,2050,tonnes CO2 (scope 1 & 2) per tonnes crude steel,0.6304160102202647
+etp_2017,sds,steel,global,2051,tonnes CO2 (scope 1 & 2) per tonnes crude steel,0.6237720354887252
+etp_2017,sds,steel,global,2052,tonnes CO2 (scope 1 & 2) per tonnes crude steel,0.6171280607571856
+etp_2017,sds,steel,global,2053,tonnes CO2 (scope 1 & 2) per tonnes crude steel,0.610484086025646
+etp_2017,sds,steel,global,2054,tonnes CO2 (scope 1 & 2) per tonnes crude steel,0.6038401112941064
+etp_2017,sds,steel,global,2055,tonnes CO2 (scope 1 & 2) per tonnes crude steel,0.5971961365625669
+etp_2017,sds,steel,global,2056,tonnes CO2 (scope 1 & 2) per tonnes crude steel,0.5885192555159962
+etp_2017,sds,steel,global,2057,tonnes CO2 (scope 1 & 2) per tonnes crude steel,0.5798423744694254
+etp_2017,sds,steel,global,2058,tonnes CO2 (scope 1 & 2) per tonnes crude steel,0.5711654934228548
+etp_2017,sds,steel,global,2059,tonnes CO2 (scope 1 & 2) per tonnes crude steel,0.5624886123762841
+etp_2017,sds,steel,global,2060,tonnes CO2 (scope 1 & 2) per tonnes crude steel,0.5538117313297134
+etp_2017,b2ds,aviation,global,2014,grams CO2 (scope 1) per passenger-km,122.55996103010304
+etp_2017,b2ds,aviation,global,2015,grams CO2 (scope 1) per passenger-km,119.40350234223833
+etp_2017,b2ds,aviation,global,2016,grams CO2 (scope 1) per passenger-km,116.24704365437361
+etp_2017,b2ds,aviation,global,2017,grams CO2 (scope 1) per passenger-km,113.09058496650891
+etp_2017,b2ds,aviation,global,2018,grams CO2 (scope 1) per passenger-km,109.9341262786442
+etp_2017,b2ds,aviation,global,2019,grams CO2 (scope 1) per passenger-km,106.77766759077949
+etp_2017,b2ds,aviation,global,2020,grams CO2 (scope 1) per passenger-km,103.62120890291477
+etp_2017,b2ds,aviation,global,2021,grams CO2 (scope 1) per passenger-km,100.46475021505006
+etp_2017,b2ds,aviation,global,2022,grams CO2 (scope 1) per passenger-km,97.30829152718536
+etp_2017,b2ds,aviation,global,2023,grams CO2 (scope 1) per passenger-km,94.15183283932063
+etp_2017,b2ds,aviation,global,2024,grams CO2 (scope 1) per passenger-km,90.99537415145593
+etp_2017,b2ds,aviation,global,2025,grams CO2 (scope 1) per passenger-km,87.83891546359122
+etp_2017,b2ds,aviation,global,2026,grams CO2 (scope 1) per passenger-km,84.29982809140166
+etp_2017,b2ds,aviation,global,2027,grams CO2 (scope 1) per passenger-km,80.76074071921211
+etp_2017,b2ds,aviation,global,2028,grams CO2 (scope 1) per passenger-km,77.22165334702254
+etp_2017,b2ds,aviation,global,2029,grams CO2 (scope 1) per passenger-km,73.68256597483298
+etp_2017,b2ds,aviation,global,2030,grams CO2 (scope 1) per passenger-km,70.14347860264343
+etp_2017,b2ds,aviation,global,2031,grams CO2 (scope 1) per passenger-km,66.69837568764257
+etp_2017,b2ds,aviation,global,2032,grams CO2 (scope 1) per passenger-km,63.25327277264172
+etp_2017,b2ds,aviation,global,2033,grams CO2 (scope 1) per passenger-km,59.80816985764087
+etp_2017,b2ds,aviation,global,2034,grams CO2 (scope 1) per passenger-km,56.36306694264002
+etp_2017,b2ds,aviation,global,2035,grams CO2 (scope 1) per passenger-km,52.917964027639165
+etp_2017,b2ds,aviation,global,2036,grams CO2 (scope 1) per passenger-km,50.233417968775896
+etp_2017,b2ds,aviation,global,2037,grams CO2 (scope 1) per passenger-km,47.54887190991262
+etp_2017,b2ds,aviation,global,2038,grams CO2 (scope 1) per passenger-km,44.86432585104935
+etp_2017,b2ds,aviation,global,2039,grams CO2 (scope 1) per passenger-km,42.179779792186075
+etp_2017,b2ds,aviation,global,2040,grams CO2 (scope 1) per passenger-km,39.495233733322806
+etp_2017,b2ds,aviation,global,2041,grams CO2 (scope 1) per passenger-km,37.25094483137478
+etp_2017,b2ds,aviation,global,2042,grams CO2 (scope 1) per passenger-km,35.00665592942675
+etp_2017,b2ds,aviation,global,2043,grams CO2 (scope 1) per passenger-km,32.762367027478724
+etp_2017,b2ds,aviation,global,2044,grams CO2 (scope 1) per passenger-km,30.5180781255307
+etp_2017,b2ds,aviation,global,2045,grams CO2 (scope 1) per passenger-km,28.27378922358267
+etp_2017,b2ds,aviation,global,2046,grams CO2 (scope 1) per passenger-km,26.93569877580884
+etp_2017,b2ds,aviation,global,2047,grams CO2 (scope 1) per passenger-km,25.59760832803501
+etp_2017,b2ds,aviation,global,2048,grams CO2 (scope 1) per passenger-km,24.259517880261182
+etp_2017,b2ds,aviation,global,2049,grams CO2 (scope 1) per passenger-km,22.921427432487352
+etp_2017,b2ds,aviation,global,2050,grams CO2 (scope 1) per passenger-km,21.583336984713522
+etp_2017,b2ds,aviation,global,2051,grams CO2 (scope 1) per passenger-km,20.529940009792274
+etp_2017,b2ds,aviation,global,2052,grams CO2 (scope 1) per passenger-km,19.476543034871025
+etp_2017,b2ds,aviation,global,2053,grams CO2 (scope 1) per passenger-km,18.423146059949776
+etp_2017,b2ds,aviation,global,2054,grams CO2 (scope 1) per passenger-km,17.369749085028527
+etp_2017,b2ds,aviation,global,2055,grams CO2 (scope 1) per passenger-km,16.316352110107278
+etp_2017,b2ds,aviation,global,2056,grams CO2 (scope 1) per passenger-km,15.45797235682749
+etp_2017,b2ds,aviation,global,2057,grams CO2 (scope 1) per passenger-km,14.599592603547702
+etp_2017,b2ds,aviation,global,2058,grams CO2 (scope 1) per passenger-km,13.741212850267914
+etp_2017,b2ds,aviation,global,2059,grams CO2 (scope 1) per passenger-km,12.882833096988124
+etp_2017,b2ds,aviation,global,2060,grams CO2 (scope 1) per passenger-km,12.024453343708336
+etp_2017,rts,aviation,global,2014,grams CO2 (scope 1) per passenger-km,122.47047173193835
+etp_2017,rts,aviation,global,2015,grams CO2 (scope 1) per passenger-km,120.30995191204855
+etp_2017,rts,aviation,global,2016,grams CO2 (scope 1) per passenger-km,118.14943209215873
+etp_2017,rts,aviation,global,2017,grams CO2 (scope 1) per passenger-km,115.98891227226893
+etp_2017,rts,aviation,global,2018,grams CO2 (scope 1) per passenger-km,113.82839245237912
+etp_2017,rts,aviation,global,2019,grams CO2 (scope 1) per passenger-km,111.66787263248932
+etp_2017,rts,aviation,global,2020,grams CO2 (scope 1) per passenger-km,109.50735281259952
+etp_2017,rts,aviation,global,2021,grams CO2 (scope 1) per passenger-km,107.34683299270972
+etp_2017,rts,aviation,global,2022,grams CO2 (scope 1) per passenger-km,105.18631317281991
+etp_2017,rts,aviation,global,2023,grams CO2 (scope 1) per passenger-km,103.02579335293011
+etp_2017,rts,aviation,global,2024,grams CO2 (scope 1) per passenger-km,100.8652735330403
+etp_2017,rts,aviation,global,2025,grams CO2 (scope 1) per passenger-km,98.7047537131505
+etp_2017,rts,aviation,global,2026,grams CO2 (scope 1) per passenger-km,96.57242385237687
+etp_2017,rts,aviation,global,2027,grams CO2 (scope 1) per passenger-km,94.44009399160323
+etp_2017,rts,aviation,global,2028,grams CO2 (scope 1) per passenger-km,92.30776413082961
+etp_2017,rts,aviation,global,2029,grams CO2 (scope 1) per passenger-km,90.17543427005597
+etp_2017,rts,aviation,global,2030,grams CO2 (scope 1) per passenger-km,88.04310440928235
+etp_2017,rts,aviation,global,2031,grams CO2 (scope 1) per passenger-km,86.09670781912673
+etp_2017,rts,aviation,global,2032,grams CO2 (scope 1) per passenger-km,84.15031122897112
+etp_2017,rts,aviation,global,2033,grams CO2 (scope 1) per passenger-km,82.20391463881552
+etp_2017,rts,aviation,global,2034,grams CO2 (scope 1) per passenger-km,80.2575180486599
+etp_2017,rts,aviation,global,2035,grams CO2 (scope 1) per passenger-km,78.31112145850429
+etp_2017,rts,aviation,global,2036,grams CO2 (scope 1) per passenger-km,76.35565461490378
+etp_2017,rts,aviation,global,2037,grams CO2 (scope 1) per passenger-km,74.40018777130327
+etp_2017,rts,aviation,global,2038,grams CO2 (scope 1) per passenger-km,72.44472092770276
+etp_2017,rts,aviation,global,2039,grams CO2 (scope 1) per passenger-km,70.48925408410224
+etp_2017,rts,aviation,global,2040,grams CO2 (scope 1) per passenger-km,68.53378724050174
+etp_2017,rts,aviation,global,2041,grams CO2 (scope 1) per passenger-km,66.78999962424798
+etp_2017,rts,aviation,global,2042,grams CO2 (scope 1) per passenger-km,65.04621200799423
+etp_2017,rts,aviation,global,2043,grams CO2 (scope 1) per passenger-km,63.30242439174047
+etp_2017,rts,aviation,global,2044,grams CO2 (scope 1) per passenger-km,61.55863677548672
+etp_2017,rts,aviation,global,2045,grams CO2 (scope 1) per passenger-km,59.81484915923296
+etp_2017,rts,aviation,global,2046,grams CO2 (scope 1) per passenger-km,58.28316944878343
+etp_2017,rts,aviation,global,2047,grams CO2 (scope 1) per passenger-km,56.7514897383339
+etp_2017,rts,aviation,global,2048,grams CO2 (scope 1) per passenger-km,55.219810027884364
+etp_2017,rts,aviation,global,2049,grams CO2 (scope 1) per passenger-km,53.68813031743483
+etp_2017,rts,aviation,global,2050,grams CO2 (scope 1) per passenger-km,52.1564506069853
+etp_2017,rts,aviation,global,2051,grams CO2 (scope 1) per passenger-km,51.18271432352963
+etp_2017,rts,aviation,global,2052,grams CO2 (scope 1) per passenger-km,50.20897804007396
+etp_2017,rts,aviation,global,2053,grams CO2 (scope 1) per passenger-km,49.23524175661828
+etp_2017,rts,aviation,global,2054,grams CO2 (scope 1) per passenger-km,48.26150547316261
+etp_2017,rts,aviation,global,2055,grams CO2 (scope 1) per passenger-km,47.287769189706935
+etp_2017,rts,aviation,global,2056,grams CO2 (scope 1) per passenger-km,46.72641102695036
+etp_2017,rts,aviation,global,2057,grams CO2 (scope 1) per passenger-km,46.165052864193775
+etp_2017,rts,aviation,global,2058,grams CO2 (scope 1) per passenger-km,45.6036947014372
+etp_2017,rts,aviation,global,2059,grams CO2 (scope 1) per passenger-km,45.042336538680615
+etp_2017,rts,aviation,global,2060,grams CO2 (scope 1) per passenger-km,44.48097837592404
+etp_2017,sds,aviation,global,2014,grams CO2 (scope 1) per passenger-km,122.55996103010304
+etp_2017,sds,aviation,global,2015,grams CO2 (scope 1) per passenger-km,119.72998968114203
+etp_2017,sds,aviation,global,2016,grams CO2 (scope 1) per passenger-km,116.90001833218102
+etp_2017,sds,aviation,global,2017,grams CO2 (scope 1) per passenger-km,114.07004698322002
+etp_2017,sds,aviation,global,2018,grams CO2 (scope 1) per passenger-km,111.24007563425901
+etp_2017,sds,aviation,global,2019,grams CO2 (scope 1) per passenger-km,108.410104285298
+etp_2017,sds,aviation,global,2020,grams CO2 (scope 1) per passenger-km,105.580132936337
+etp_2017,sds,aviation,global,2021,grams CO2 (scope 1) per passenger-km,102.75016158737598
+etp_2017,sds,aviation,global,2022,grams CO2 (scope 1) per passenger-km,99.92019023841499
+etp_2017,sds,aviation,global,2023,grams CO2 (scope 1) per passenger-km,97.09021888945398
+etp_2017,sds,aviation,global,2024,grams CO2 (scope 1) per passenger-km,94.26024754049297
+etp_2017,sds,aviation,global,2025,grams CO2 (scope 1) per passenger-km,91.43027619153196
+etp_2017,sds,aviation,global,2026,grams CO2 (scope 1) per passenger-km,88.22994843421421
+etp_2017,sds,aviation,global,2027,grams CO2 (scope 1) per passenger-km,85.02962067689646
+etp_2017,sds,aviation,global,2028,grams CO2 (scope 1) per passenger-km,81.82929291957872
+etp_2017,sds,aviation,global,2029,grams CO2 (scope 1) per passenger-km,78.62896516226097
+etp_2017,sds,aviation,global,2030,grams CO2 (scope 1) per passenger-km,75.42863740494322
+etp_2017,sds,aviation,global,2031,grams CO2 (scope 1) per passenger-km,72.38455122971898
+etp_2017,sds,aviation,global,2032,grams CO2 (scope 1) per passenger-km,69.34046505449474
+etp_2017,sds,aviation,global,2033,grams CO2 (scope 1) per passenger-km,66.2963788792705
+etp_2017,sds,aviation,global,2034,grams CO2 (scope 1) per passenger-km,63.25229270404626
+etp_2017,sds,aviation,global,2035,grams CO2 (scope 1) per passenger-km,60.208206528822025
+etp_2017,sds,aviation,global,2036,grams CO2 (scope 1) per passenger-km,57.661970768802185
+etp_2017,sds,aviation,global,2037,grams CO2 (scope 1) per passenger-km,55.11573500878234
+etp_2017,sds,aviation,global,2038,grams CO2 (scope 1) per passenger-km,52.5694992487625
+etp_2017,sds,aviation,global,2039,grams CO2 (scope 1) per passenger-km,50.02326348874266
+etp_2017,sds,aviation,global,2040,grams CO2 (scope 1) per passenger-km,47.47702772872282
+etp_2017,sds,aviation,global,2041,grams CO2 (scope 1) per passenger-km,45.28547572981827
+etp_2017,sds,aviation,global,2042,grams CO2 (scope 1) per passenger-km,43.09392373091373
+etp_2017,sds,aviation,global,2043,grams CO2 (scope 1) per passenger-km,40.90237173200918
+etp_2017,sds,aviation,global,2044,grams CO2 (scope 1) per passenger-km,38.710819733104636
+etp_2017,sds,aviation,global,2045,grams CO2 (scope 1) per passenger-km,36.51926773420009
+etp_2017,sds,aviation,global,2046,grams CO2 (scope 1) per passenger-km,35.108783157887046
+etp_2017,sds,aviation,global,2047,grams CO2 (scope 1) per passenger-km,33.69829858157401
+etp_2017,sds,aviation,global,2048,grams CO2 (scope 1) per passenger-km,32.28781400526097
+etp_2017,sds,aviation,global,2049,grams CO2 (scope 1) per passenger-km,30.877329428947924
+etp_2017,sds,aviation,global,2050,grams CO2 (scope 1) per passenger-km,29.466844852634882
+etp_2017,sds,aviation,global,2051,grams CO2 (scope 1) per passenger-km,28.53584246239846
+etp_2017,sds,aviation,global,2052,grams CO2 (scope 1) per passenger-km,27.604840072162038
+etp_2017,sds,aviation,global,2053,grams CO2 (scope 1) per passenger-km,26.673837681925612
+etp_2017,sds,aviation,global,2054,grams CO2 (scope 1) per passenger-km,25.74283529168919
+etp_2017,sds,aviation,global,2055,grams CO2 (scope 1) per passenger-km,24.811832901452767
+etp_2017,sds,aviation,global,2056,grams CO2 (scope 1) per passenger-km,24.22752030137528
+etp_2017,sds,aviation,global,2057,grams CO2 (scope 1) per passenger-km,23.64320770129779
+etp_2017,sds,aviation,global,2058,grams CO2 (scope 1) per passenger-km,23.0588951012203
+etp_2017,sds,aviation,global,2059,grams CO2 (scope 1) per passenger-km,22.474582501142812
+etp_2017,sds,aviation,global,2060,grams CO2 (scope 1) per passenger-km,21.890269901065324
+etp_2017,b2ds,cement,global,2014,tonnes CO2 (scope 1 & 2) per tonnes cement,0.5826444156156276
+etp_2017,b2ds,cement,global,2015,tonnes CO2 (scope 1 & 2) per tonnes cement,0.5752620624718223
+etp_2017,b2ds,cement,global,2016,tonnes CO2 (scope 1 & 2) per tonnes cement,0.567879709328017
+etp_2017,b2ds,cement,global,2017,tonnes CO2 (scope 1 & 2) per tonnes cement,0.5604973561842117
+etp_2017,b2ds,cement,global,2018,tonnes CO2 (scope 1 & 2) per tonnes cement,0.5531150030404064
+etp_2017,b2ds,cement,global,2019,tonnes CO2 (scope 1 & 2) per tonnes cement,0.5457326498966011
+etp_2017,b2ds,cement,global,2020,tonnes CO2 (scope 1 & 2) per tonnes cement,0.5383502967527959
+etp_2017,b2ds,cement,global,2021,tonnes CO2 (scope 1 & 2) per tonnes cement,0.5309679436089906
+etp_2017,b2ds,cement,global,2022,tonnes CO2 (scope 1 & 2) per tonnes cement,0.5235855904651853
+etp_2017,b2ds,cement,global,2023,tonnes CO2 (scope 1 & 2) per tonnes cement,0.51620323732138
+etp_2017,b2ds,cement,global,2024,tonnes CO2 (scope 1 & 2) per tonnes cement,0.5088208841775747
+etp_2017,b2ds,cement,global,2025,tonnes CO2 (scope 1 & 2) per tonnes cement,0.5014385310337693
+etp_2017,b2ds,cement,global,2026,tonnes CO2 (scope 1 & 2) per tonnes cement,0.4872295956154667
+etp_2017,b2ds,cement,global,2027,tonnes CO2 (scope 1 & 2) per tonnes cement,0.47302066019716404
+etp_2017,b2ds,cement,global,2028,tonnes CO2 (scope 1 & 2) per tonnes cement,0.45881172477886134
+etp_2017,b2ds,cement,global,2029,tonnes CO2 (scope 1 & 2) per tonnes cement,0.4446027893605587
+etp_2017,b2ds,cement,global,2030,tonnes CO2 (scope 1 & 2) per tonnes cement,0.43039385394225604
+etp_2017,b2ds,cement,global,2031,tonnes CO2 (scope 1 & 2) per tonnes cement,0.4164531737453636
+etp_2017,b2ds,cement,global,2032,tonnes CO2 (scope 1 & 2) per tonnes cement,0.4025124935484712
+etp_2017,b2ds,cement,global,2033,tonnes CO2 (scope 1 & 2) per tonnes cement,0.3885718133515787
+etp_2017,b2ds,cement,global,2034,tonnes CO2 (scope 1 & 2) per tonnes cement,0.37463113315468627
+etp_2017,b2ds,cement,global,2035,tonnes CO2 (scope 1 & 2) per tonnes cement,0.36069045295779384
+etp_2017,b2ds,cement,global,2036,tonnes CO2 (scope 1 & 2) per tonnes cement,0.3450989108598862
+etp_2017,b2ds,cement,global,2037,tonnes CO2 (scope 1 & 2) per tonnes cement,0.3295073687619785
+etp_2017,b2ds,cement,global,2038,tonnes CO2 (scope 1 & 2) per tonnes cement,0.31391582666407086
+etp_2017,b2ds,cement,global,2039,tonnes CO2 (scope 1 & 2) per tonnes cement,0.29832428456616317
+etp_2017,b2ds,cement,global,2040,tonnes CO2 (scope 1 & 2) per tonnes cement,0.2827327424682555
+etp_2017,b2ds,cement,global,2041,tonnes CO2 (scope 1 & 2) per tonnes cement,0.27477816579260345
+etp_2017,b2ds,cement,global,2042,tonnes CO2 (scope 1 & 2) per tonnes cement,0.26682358911695137
+etp_2017,b2ds,cement,global,2043,tonnes CO2 (scope 1 & 2) per tonnes cement,0.2588690124412993
+etp_2017,b2ds,cement,global,2044,tonnes CO2 (scope 1 & 2) per tonnes cement,0.2509144357656472
+etp_2017,b2ds,cement,global,2045,tonnes CO2 (scope 1 & 2) per tonnes cement,0.24295985908999512
+etp_2017,b2ds,cement,global,2046,tonnes CO2 (scope 1 & 2) per tonnes cement,0.2281611218545025
+etp_2017,b2ds,cement,global,2047,tonnes CO2 (scope 1 & 2) per tonnes cement,0.21336238461900986
+etp_2017,b2ds,cement,global,2048,tonnes CO2 (scope 1 & 2) per tonnes cement,0.19856364738351723
+etp_2017,b2ds,cement,global,2049,tonnes CO2 (scope 1 & 2) per tonnes cement,0.1837649101480246
+etp_2017,b2ds,cement,global,2050,tonnes CO2 (scope 1 & 2) per tonnes cement,0.16896617291253196
+etp_2017,b2ds,cement,global,2051,tonnes CO2 (scope 1 & 2) per tonnes cement,0.16355388876658775
+etp_2017,b2ds,cement,global,2052,tonnes CO2 (scope 1 & 2) per tonnes cement,0.1581416046206435
+etp_2017,b2ds,cement,global,2053,tonnes CO2 (scope 1 & 2) per tonnes cement,0.15272932047469928
+etp_2017,b2ds,cement,global,2054,tonnes CO2 (scope 1 & 2) per tonnes cement,0.14731703632875504
+etp_2017,b2ds,cement,global,2055,tonnes CO2 (scope 1 & 2) per tonnes cement,0.14190475218281082
+etp_2017,b2ds,cement,global,2056,tonnes CO2 (scope 1 & 2) per tonnes cement,0.13229623036770885
+etp_2017,b2ds,cement,global,2057,tonnes CO2 (scope 1 & 2) per tonnes cement,0.12268770855260688
+etp_2017,b2ds,cement,global,2058,tonnes CO2 (scope 1 & 2) per tonnes cement,0.11307918673750493
+etp_2017,b2ds,cement,global,2059,tonnes CO2 (scope 1 & 2) per tonnes cement,0.10347066492240295
+etp_2017,b2ds,cement,global,2060,tonnes CO2 (scope 1 & 2) per tonnes cement,0.093862143107301
+etp_2017,rts,cement,global,2014,tonnes CO2 (scope 1 & 2) per tonnes cement,0.5826444156156276
+etp_2017,rts,cement,global,2015,tonnes CO2 (scope 1 & 2) per tonnes cement,0.5838560831764136
+etp_2017,rts,cement,global,2016,tonnes CO2 (scope 1 & 2) per tonnes cement,0.5850677507371995
+etp_2017,rts,cement,global,2017,tonnes CO2 (scope 1 & 2) per tonnes cement,0.5862794182979855
+etp_2017,rts,cement,global,2018,tonnes CO2 (scope 1 & 2) per tonnes cement,0.5874910858587714
+etp_2017,rts,cement,global,2019,tonnes CO2 (scope 1 & 2) per tonnes cement,0.5887027534195574
+etp_2017,rts,cement,global,2020,tonnes CO2 (scope 1 & 2) per tonnes cement,0.5899144209803432
+etp_2017,rts,cement,global,2021,tonnes CO2 (scope 1 & 2) per tonnes cement,0.5911260885411291
+etp_2017,rts,cement,global,2022,tonnes CO2 (scope 1 & 2) per tonnes cement,0.5923377561019151
+etp_2017,rts,cement,global,2023,tonnes CO2 (scope 1 & 2) per tonnes cement,0.593549423662701
+etp_2017,rts,cement,global,2024,tonnes CO2 (scope 1 & 2) per tonnes cement,0.594761091223487
+etp_2017,rts,cement,global,2025,tonnes CO2 (scope 1 & 2) per tonnes cement,0.5959727587842729
+etp_2017,rts,cement,global,2026,tonnes CO2 (scope 1 & 2) per tonnes cement,0.5911410189634883
+etp_2017,rts,cement,global,2027,tonnes CO2 (scope 1 & 2) per tonnes cement,0.5863092791427036
+etp_2017,rts,cement,global,2028,tonnes CO2 (scope 1 & 2) per tonnes cement,0.581477539321919
+etp_2017,rts,cement,global,2029,tonnes CO2 (scope 1 & 2) per tonnes cement,0.5766457995011344
+etp_2017,rts,cement,global,2030,tonnes CO2 (scope 1 & 2) per tonnes cement,0.5718140596803497
+etp_2017,rts,cement,global,2031,tonnes CO2 (scope 1 & 2) per tonnes cement,0.5691788648877305
+etp_2017,rts,cement,global,2032,tonnes CO2 (scope 1 & 2) per tonnes cement,0.5665436700951114
+etp_2017,rts,cement,global,2033,tonnes CO2 (scope 1 & 2) per tonnes cement,0.5639084753024922
+etp_2017,rts,cement,global,2034,tonnes CO2 (scope 1 & 2) per tonnes cement,0.5612732805098731
+etp_2017,rts,cement,global,2035,tonnes CO2 (scope 1 & 2) per tonnes cement,0.5586380857172539
+etp_2017,rts,cement,global,2036,tonnes CO2 (scope 1 & 2) per tonnes cement,0.5518333558238679
+etp_2017,rts,cement,global,2037,tonnes CO2 (scope 1 & 2) per tonnes cement,0.5450286259304818
+etp_2017,rts,cement,global,2038,tonnes CO2 (scope 1 & 2) per tonnes cement,0.5382238960370959
+etp_2017,rts,cement,global,2039,tonnes CO2 (scope 1 & 2) per tonnes cement,0.5314191661437098
+etp_2017,rts,cement,global,2040,tonnes CO2 (scope 1 & 2) per tonnes cement,0.5246144362503238
+etp_2017,rts,cement,global,2041,tonnes CO2 (scope 1 & 2) per tonnes cement,0.5197002629667403
+etp_2017,rts,cement,global,2042,tonnes CO2 (scope 1 & 2) per tonnes cement,0.5147860896831568
+etp_2017,rts,cement,global,2043,tonnes CO2 (scope 1 & 2) per tonnes cement,0.5098719163995733
+etp_2017,rts,cement,global,2044,tonnes CO2 (scope 1 & 2) per tonnes cement,0.5049577431159897
+etp_2017,rts,cement,global,2045,tonnes CO2 (scope 1 & 2) per tonnes cement,0.5000435698324063
+etp_2017,rts,cement,global,2046,tonnes CO2 (scope 1 & 2) per tonnes cement,0.4942777719153302
+etp_2017,rts,cement,global,2047,tonnes CO2 (scope 1 & 2) per tonnes cement,0.48851197399825413
+etp_2017,rts,cement,global,2048,tonnes CO2 (scope 1 & 2) per tonnes cement,0.48274617608117804
+etp_2017,rts,cement,global,2049,tonnes CO2 (scope 1 & 2) per tonnes cement,0.476980378164102
+etp_2017,rts,cement,global,2050,tonnes CO2 (scope 1 & 2) per tonnes cement,0.4712145802470259
+etp_2017,rts,cement,global,2051,tonnes CO2 (scope 1 & 2) per tonnes cement,0.47247277088252077
+etp_2017,rts,cement,global,2052,tonnes CO2 (scope 1 & 2) per tonnes cement,0.47373096151801564
+etp_2017,rts,cement,global,2053,tonnes CO2 (scope 1 & 2) per tonnes cement,0.4749891521535105
+etp_2017,rts,cement,global,2054,tonnes CO2 (scope 1 & 2) per tonnes cement,0.4762473427890054
+etp_2017,rts,cement,global,2055,tonnes CO2 (scope 1 & 2) per tonnes cement,0.47750553342450025
+etp_2017,rts,cement,global,2056,tonnes CO2 (scope 1 & 2) per tonnes cement,0.4752301788928453
+etp_2017,rts,cement,global,2057,tonnes CO2 (scope 1 & 2) per tonnes cement,0.47295482436119035
+etp_2017,rts,cement,global,2058,tonnes CO2 (scope 1 & 2) per tonnes cement,0.47067946982953546
+etp_2017,rts,cement,global,2059,tonnes CO2 (scope 1 & 2) per tonnes cement,0.4684041152978805
+etp_2017,rts,cement,global,2060,tonnes CO2 (scope 1 & 2) per tonnes cement,0.46612876076622556
+etp_2017,sds,cement,global,2014,tonnes CO2 (scope 1 & 2) per tonnes cement,0.5826444156156276
+etp_2017,sds,cement,global,2015,tonnes CO2 (scope 1 & 2) per tonnes cement,0.581330413265098
+etp_2017,sds,cement,global,2016,tonnes CO2 (scope 1 & 2) per tonnes cement,0.5800164109145683
+etp_2017,sds,cement,global,2017,tonnes CO2 (scope 1 & 2) per tonnes cement,0.5787024085640388
+etp_2017,sds,cement,global,2018,tonnes CO2 (scope 1 & 2) per tonnes cement,0.5773884062135091
+etp_2017,sds,cement,global,2019,tonnes CO2 (scope 1 & 2) per tonnes cement,0.5760744038629795
+etp_2017,sds,cement,global,2020,tonnes CO2 (scope 1 & 2) per tonnes cement,0.5747604015124498
+etp_2017,sds,cement,global,2021,tonnes CO2 (scope 1 & 2) per tonnes cement,0.5734463991619202
+etp_2017,sds,cement,global,2022,tonnes CO2 (scope 1 & 2) per tonnes cement,0.5721323968113905
+etp_2017,sds,cement,global,2023,tonnes CO2 (scope 1 & 2) per tonnes cement,0.5708183944608609
+etp_2017,sds,cement,global,2024,tonnes CO2 (scope 1 & 2) per tonnes cement,0.5695043921103312
+etp_2017,sds,cement,global,2025,tonnes CO2 (scope 1 & 2) per tonnes cement,0.5681903897598016
+etp_2017,sds,cement,global,2026,tonnes CO2 (scope 1 & 2) per tonnes cement,0.558035814460288
+etp_2017,sds,cement,global,2027,tonnes CO2 (scope 1 & 2) per tonnes cement,0.5478812391607744
+etp_2017,sds,cement,global,2028,tonnes CO2 (scope 1 & 2) per tonnes cement,0.5377266638612608
+etp_2017,sds,cement,global,2029,tonnes CO2 (scope 1 & 2) per tonnes cement,0.5275720885617471
+etp_2017,sds,cement,global,2030,tonnes CO2 (scope 1 & 2) per tonnes cement,0.5174175132622335
+etp_2017,sds,cement,global,2031,tonnes CO2 (scope 1 & 2) per tonnes cement,0.510400708629063
+etp_2017,sds,cement,global,2032,tonnes CO2 (scope 1 & 2) per tonnes cement,0.5033839039958925
+etp_2017,sds,cement,global,2033,tonnes CO2 (scope 1 & 2) per tonnes cement,0.49636709936272194
+etp_2017,sds,cement,global,2034,tonnes CO2 (scope 1 & 2) per tonnes cement,0.48935029472955144
+etp_2017,sds,cement,global,2035,tonnes CO2 (scope 1 & 2) per tonnes cement,0.48233349009638093
+etp_2017,sds,cement,global,2036,tonnes CO2 (scope 1 & 2) per tonnes cement,0.4716069287596021
+etp_2017,sds,cement,global,2037,tonnes CO2 (scope 1 & 2) per tonnes cement,0.46088036742282323
+etp_2017,sds,cement,global,2038,tonnes CO2 (scope 1 & 2) per tonnes cement,0.4501538060860444
+etp_2017,sds,cement,global,2039,tonnes CO2 (scope 1 & 2) per tonnes cement,0.43942724474926553
+etp_2017,sds,cement,global,2040,tonnes CO2 (scope 1 & 2) per tonnes cement,0.4287006834124867
+etp_2017,sds,cement,global,2041,tonnes CO2 (scope 1 & 2) per tonnes cement,0.4190753058145852
+etp_2017,sds,cement,global,2042,tonnes CO2 (scope 1 & 2) per tonnes cement,0.40944992821668375
+etp_2017,sds,cement,global,2043,tonnes CO2 (scope 1 & 2) per tonnes cement,0.39982455061878225
+etp_2017,sds,cement,global,2044,tonnes CO2 (scope 1 & 2) per tonnes cement,0.3901991730208808
+etp_2017,sds,cement,global,2045,tonnes CO2 (scope 1 & 2) per tonnes cement,0.3805737954229793
+etp_2017,sds,cement,global,2046,tonnes CO2 (scope 1 & 2) per tonnes cement,0.3716362182274958
+etp_2017,sds,cement,global,2047,tonnes CO2 (scope 1 & 2) per tonnes cement,0.36269864103201227
+etp_2017,sds,cement,global,2048,tonnes CO2 (scope 1 & 2) per tonnes cement,0.3537610638365288
+etp_2017,sds,cement,global,2049,tonnes CO2 (scope 1 & 2) per tonnes cement,0.34482348664104523
+etp_2017,sds,cement,global,2050,tonnes CO2 (scope 1 & 2) per tonnes cement,0.33588590944556174
+etp_2017,sds,cement,global,2051,tonnes CO2 (scope 1 & 2) per tonnes cement,0.3347589673297259
+etp_2017,sds,cement,global,2052,tonnes CO2 (scope 1 & 2) per tonnes cement,0.33363202521389
+etp_2017,sds,cement,global,2053,tonnes CO2 (scope 1 & 2) per tonnes cement,0.3325050830980541
+etp_2017,sds,cement,global,2054,tonnes CO2 (scope 1 & 2) per tonnes cement,0.33137814098221824
+etp_2017,sds,cement,global,2055,tonnes CO2 (scope 1 & 2) per tonnes cement,0.3302511988663824
+etp_2017,sds,cement,global,2056,tonnes CO2 (scope 1 & 2) per tonnes cement,0.3263052818002028
+etp_2017,sds,cement,global,2057,tonnes CO2 (scope 1 & 2) per tonnes cement,0.3223593647340232
+etp_2017,sds,cement,global,2058,tonnes CO2 (scope 1 & 2) per tonnes cement,0.3184134476678437
+etp_2017,sds,cement,global,2059,tonnes CO2 (scope 1 & 2) per tonnes cement,0.3144675306016641
+etp_2017,sds,cement,global,2060,tonnes CO2 (scope 1 & 2) per tonnes cement,0.3105216135354845
