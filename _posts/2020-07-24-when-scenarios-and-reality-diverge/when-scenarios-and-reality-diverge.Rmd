@@ -8,6 +8,7 @@ output:
   distill::distill_article:
     toc: true
     self_contained: true
+    css: bootstrap.min.css
 categories:
   - other
 ---
