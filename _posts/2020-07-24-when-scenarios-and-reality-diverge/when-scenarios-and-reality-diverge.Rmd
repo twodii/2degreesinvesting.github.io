@@ -11,6 +11,7 @@ output:
     css: bootstrap.min.css
 categories:
   - other
+preview: preview.png
 ---
 
 ```{r setup, include=FALSE}
