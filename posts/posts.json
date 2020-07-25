@@ -1,5 +1,24 @@
 [
   {
+    "path": "posts/2020-07-25-gh-flow/",
+    "title": "GitHub flow",
+    "description": "Submit pull requests from any branch -- except master",
+    "author": [
+      {
+        "name": "Mauro Lepore",
+        "url": "https://github.com/maurolepore"
+      }
+    ],
+    "date": "2020-07-25",
+    "categories": [
+      "other",
+      "community"
+    ],
+    "preview": "posts/2020-07-25-gh-flow/preview.jpg",
+    "last_modified": "2020-07-25T13:25:14-05:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2020-07-24-when-scenarios-and-reality-diverge/",
     "title": "When Scenarios and Reality Diverge",
     "description": "A deep dive into IEA scenarios.",
@@ -15,7 +34,7 @@
       "scenarios"
     ],
     "preview": "posts/2020-07-24-when-scenarios-and-reality-diverge/preview.png",
-    "last_modified": "2020-07-25T08:01:36-05:00",
+    "last_modified": "2020-07-25T13:24:48-05:00",
     "input_file": {},
     "preview_width": 1536,
     "preview_height": 960
@@ -188,7 +207,7 @@
       "package"
     ],
     "preview": "posts/2020-06-05-r2dii-match-0-0-2/preview.jpg",
-    "last_modified": "2020-06-16T08:41:52-05:00",
+    "last_modified": "2020-07-25T13:18:34-05:00",
     "input_file": {}
   },
   {
