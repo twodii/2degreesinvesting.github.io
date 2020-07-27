@@ -1,0 +1,78 @@
+---
+title: "PACTA_analysis - New config file: project_settings"
+description: |
+  This post outlines the changes of the workflow in the PACTA_analysis repository. Everyone who works with this repository is encouraged to read this.
+author:
+  - name: Jacob Kastl
+    url: https://github.com/jacobvjk
+date: 07-27-2020
+output:
+  distill::distill_article:
+    self_contained: false
+categories:
+  - other
+  - programming
+twitter:
+  site: "@JacKastl"
+  creator: "@JacKastl"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE,
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+## Target Audience
+
+Everyone who uses the PACTA_analysis script for their projects.
+
+## What changed
+
+The workflow for initializing a project has changed. A new required config file must be used and was added to the repo.
+
+## Specifics
+
+Project wide settings should be set in the file "project_settings.yml", prior to project initialization: 
+
+```yml
+    project_name: name_of_the_project_folder
+```
+
+   - Please define `project_name`. The project name is relevant for input, output and naming of data files.
+
+```yml
+    project_internal:
+      twodii_internal: FALSE
+```
+
+   - Ensure that the variable `twodii_internal` is set `FALSE`. Value should only be set to `TRUE` for 2DII internal staff.  
+
+```yml
+  project_internal:
+    ...
+    project_location_ext: ~/path/to/project
+```
+
+- Please define `project_location_ext` by copying the full path to the folder, in which you want to store data (including the results) related to this particular evaluation. During the run of the code, the a project folder with several sub-folders will be created here.
+
+- Please consider: 
+  - copying in a path from windows requires to change all "\" to "/" (e.g. "C:/Users/Desktop/project_folder/).
+  - path needs to be a string ("...").
+
+```yml
+  project_internal:
+    ...
+    data_location_ext: ~/path/to/data
+```
+
+- Please define `data_location_ext` by copying the full path to the folder, in which you stored the data files (set of rda files) provided by Asset Resolution or the 2DII.
+
+- Please consider:
+  - copying in a path from windows requires to change all "\" to "/".
+  - path needs to be a string ("...").
+
+If you have any other questions regarding how this affects your workflow, please consult the README.Rmd file in the PACTA_analysis portfolio https://github.com/2DegreesInvesting/PACTA_analysis or contact me (Jacob), Jackson or Clare.
+
